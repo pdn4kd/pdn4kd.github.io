@@ -1,0 +1,13 @@
+Horizontal vs vertical ascent/descent (horizontal is always better, if you can pull it off)
+
+Most efficient capture orbit (general, and including circularization costs. With aside on how this also applies to escapes)
+
+Sun brightness (Why Voyager 2 and New Horizons could photograph easily, 1 100 W lightbulb per drop tile analogy, and distances at which sun is as dim as moon, various planets, sirius, etc)
+
+Efficient transfers (pretty much value of Oberth, but also Hohmann vs bielliptic)
+
+Gravity assists - KSP style
+
+Single stage performance, leading to:
+Analytic solution to maximizing single stage performance/payload
+Analytic(?) solution to splitting fuel between 2 different stages

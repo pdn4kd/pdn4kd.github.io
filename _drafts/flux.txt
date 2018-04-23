@@ -1,0 +1,19 @@
+A history of measuring flux and how bright something is.
+(magnitudes through the ages)
+	Hiapparcos: 6 classes of stars
+	Bayer, Flamsteed, etc.
+	(others?)
+	19th century: Pogson and logarithmic scales
+(Jansky, the closest thing to the one true unit. But W/m²/Å are close. First use I can find is in the 3C radio catalog in 1958. The IAU formalized it as a unit in 1973. Amusingly, W/m^2/Angstrom (or erg/s/m^2/angstrom) are moderately often used, though angstroms and ergs are deprecated by the IAU...)
+(lux/lumen/candela)
+(implicitly a bit about photometric colors)
+
+http://www.sdss.org/dr12/algorithms/magnitudes/
+
+(In general, 'pogson magnitudes')
+Magnitudes are ultimately a measurement of relative brightness. Apparent ones for what the star looks like in the sky, and absolute for what it would be if it were at 10 parsecs. But relative to what?
+Vega magnitudes: 11000 K blackbody. (flux varies with passband chosen, Johnson V is 3631 Jy.)
+http://www.stsci.edu/hst/nicmos/tools/conversion_help.html
+AB magnitudes: 0 is 3631 Jy, so mag = -2.5 log10(flux/3631 Jy)  (flux does not vary with passband)
+(maggies, used by SDSS and sort of like sort of like AB mags. m = 22.5 mag - 2.5log10(flux) (maggies are really a flux f)
+Asinh magnitudes (SDSS and others. Gunn, Lupton, etc, c. 1999)

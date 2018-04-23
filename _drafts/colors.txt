@@ -1,0 +1,14 @@
+What is color? A scientist's perspective.
+
+I would like to thank eevee for the idea for this, though I'll be going in a totally different direction. I am not interested in color so much in terms of perception, but in terms of what it 'actually' is. Or, the differences in intensity of electromagnetic radiation vs wavelength, rather than encoding and display schemes.
+(related:http://jamie-wong.com/post/color/)
+
+
+Let's start with that definition: Color is the difference in intensity with respect to wavelength of some emitter/reflector of electromagnetic radiation. Mainly emitter because I'm in Astronomy and those are easier to study and for this simpler to characterize.
+
+(Photometric colors)
+(Blackbody -- temperature colors)
+(Emission lines)
+(Doppler shift)
+(Absorption/scattering, notably dust)
+https://archive.is/20121204144725/http://www.astro.utoronto.ca/~patton/astro/mags.html
