@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "Interplanetary travel in other star systems 1"
+date:   2018-04-27 01:28:00 -0400
+tags: Exoplanets
+---
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+Inspired by [a recent ArXiv/Scientific American article][arxiv] even if it's somewhat flawed. Interstellar travel with practical timescales implies speeds of at least a few percent c, far beyond the escape requirements any plausible star system or the capabilities of chemical rockets. And yet, dramatic effects on in-system travel are still possible.
+
+# Derivation #
+Theoretically, the luminosity of a main sequence star (especially one that is relatively sunlike) can be well approximated with a power law: $$L = M^x$$. Usually [x is around 4][stellar power laws], but things get messy once you get away from about 0.5 to 2 solar masses or if you want high precision. The [literature][Andersen 1991] [includes][Mann 2015] [multiple][general parameters] [cases][m dwarf parameters] of messy polynomials for exponents.
+
+Irradiation is of the form $$S \sim L/a^2$$, where a is the planet's semi-major axis. Here we want a constant S at around that of Earth's (ignoring that it can be a bit higher for bluer stars and a bit lower for redder stars). So $$a \sim \sqrt{L/S} \sim \sqrt{L} ~ \sqrt{M^x}$$
+
+Orbital periods are of the form $$T^2 \sim \frac{a^3}{M}$$. Therefore, $$T \sim \sqrt{a^/M} \sim M^{\frac{3x}{4} - \frac{1}{2}}$$
+
+The velocity of a planet in a circular orbit is $$V \sim \sqrt{M/a} \sim M^{\frac{1}{2}-\frac{x}{4}}$$
+
+
+# Our solar system around "typical" A and K stars #
+Generally $$x = 4$$, $$T \sim M^{2.5}$$ and $$V \sim M^{-0.5}$$
+
+So at the high mass end, $$T \sim 2^{2.5} = 5.657$$ and $$V \sim 2^{-0.5} = 0.707$$
+
+And at the low mass end, $$T \sim 0.5^{2.5} = 0.177$$ and $$V \sim 0.5^{-0.5} = 1.4142$$
+
+What would our solar system analog around a 2 solar mass (early to mid A) or 0.5 solar mass (late K to early M) star be like? A "year" could range from over five and a half earth years to a little over two months. Perhaps not as extreme as around those [ultra cool dwarfs][ultra cool dwarfs], but still non-trivial. Endurance requirements of multiple years to visit even the nearest planetary neighbors (and decades for any gas giant or kuiper belt equivalents) would be off-putting for space exploration around an A-type star. But then, so would the much more stringent rocket requirements around a K-type.
+
+Orbital velocities would scale less dramatically from 70% of Earth's 30 km/s to 141%. But, given the exponential nature of the [rocket equation][Tsiolkovsky the Tyrannical], these are hiding deeper difficulties. Not enough alone to make travel trivial or impossible, but to potentially make high mass missions practical much earlier or later in the space age. Nuclear propulsion would be more appealing to simply get between planets around a K-type star, while a civilization around an A-type would be interested in it for shorter transfer times.
+
+A more complete analysis would mean putting some patched conic trajectories into a spreadsheet, and getting ΔV requirements for the equivalent of flyby and/or orbiter missions Mars, Venus, and their analogs. Something for the future.
+
+
+
+
+[arxiv]: https://arxiv.org/abs/1804.03698
+[stellar power laws]: https://en.wikipedia.org/wiki/Mass%E2%80%93luminosity_relation
+[general parameters]: http://adsabs.harvard.edu/abs/2008A%26A...489.1107B
+[m dwarf parameters]: http://adsabs.harvard.edu/abs/2000A%26A...364..217D
+[Mann 2015]: http://adsabs.harvard.edu/abs/2015ApJ...804...64M
+[Andersen 1991]: http://adsabs.harvard.edu/abs/1991A%26ARv...3...91A
+[Tsiolkovsky the Tyrannical]: https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation
+[ultra cool dwarfs]: https://en.wikipedia.org/wiki/Ultra-cool_dwarf

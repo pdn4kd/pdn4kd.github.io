@@ -1,0 +1,16 @@
+What I'm doing (survey simulations):
+Why?
+	improve state of art in predictions
+	find targets for space based direct imaging (include derivations of survey reqs)
+How (RVs)?
+	What/how spectra tell us
+	existing papers I'm using
+How (Surveys)?
+	MINERVA history
+	Considered parameters (telescopes, weather...)
+	Dispatch scheduler - what to see next?
+
+A UMKC wrapup:
+What I did (ideas, code)
+what I found (get old graphs)
+Why it wasn't all that helpful (Schawinski vs Meert, and how my data was too small for the distributions, most galaxies are intermediate, etc.)
