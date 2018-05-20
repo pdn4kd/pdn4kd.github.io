@@ -13,7 +13,7 @@ Inspired by [a recent ArXiv/Scientific American article][arxiv] even if it's som
 # Derivation #
 Theoretically, the luminosity of a main sequence star (especially one that is relatively sunlike) can be well approximated with a power law: $$L = M^x$$. Usually [x is around 4][stellar power laws], but things get messy once you get away from about 0.5 to 2 solar masses or if you want high precision. The [literature][Andersen 1991] [includes][Mann 2015] [multiple][general parameters] [cases][m dwarf parameters] of messy polynomials for exponents.
 
-Irradiation is of the form $$S \sim L/a^2$$, where a is the planet's semi-major axis. Here we want a constant S at around that of Earth's (ignoring that it can be a bit higher for bluer stars and a bit lower for redder stars). So $$a \sim \sqrt{L/S} \sim \sqrt{L} ~ \sqrt{M^x}$$
+Irradiation is of the form $$S \sim L/a^2$$, where a is the planet's semi-major axis. Here we want a constant S at around that of Earth's (ignoring that it can be a bit higher for bluer stars and a bit lower for redder stars). So $$a \sim \sqrt{L/S} \sim \sqrt{L} \sim \sqrt{M^x}$$
 
 Orbital periods are of the form $$T^2 \sim \frac{a^3}{M}$$. Therefore, $$T \sim \sqrt{a^/M} \sim M^{\frac{3x}{4} - \frac{1}{2}}$$
 
