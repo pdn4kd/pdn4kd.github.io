@@ -1,0 +1,101 @@
+---
+layout: post
+title:  "Interplanetary travel in other star systems 2"
+date:   2018-08-05 22:05:00 -0400
+tags: Exoplanets
+---
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+[Previously][mass_scale1], I did some quick scaling to estimate that travel between planets in/nearthe [habitable zones][HZ] of other stars presented non-trivial challenges. But actual orbital maneuvers can complicate things.
+
+# A Patchy Analysis Method
+[Patched conics][Patched conics wiki] allow one to approximate orbital maneuvers with an reasonable degree of accuracy by "patching together" a series of Keplerian orbits. Especially cases where only one body dominates at a time, as is typical of the [Hohmann][Hohmann wiki] and [bi-elliptic][bi-elliptic wiki] transfers. If one wants to learn more about them, and my breezy use of orbital mechanics, I suggest [Fundamentals of Astrodynamics][Amazon], playing [Kerbal Space Program][KSP], and/or [braeunig][braeunig]. And of course, [Project Rho/Atomic Rockets][nyrath]
+
+For this particular case I am assuming that orbital trips consist of:
+* Traveling from a planet's surface to a circular 200 km orbit takes 20% more ΔV than circular velocity. This 20% figure is a rather arbitrary (and possibly pessimistic) way of considering atmospheric and gravity losses, but is at least consistent and should be vaguely accurate. The 200 km altitude is also arbitrary (if perhaps optimistic), but works as a parking orbit for Earth. Assuming thin atmospheres and/or low scale heights, it can be applied elsewhere.
+* Hohmann transfers are performed to travelling between planets. Yes, this implies circular coplanar orbits.
+* Entering orbit from a transfer, and landing from a 200 km orbit are ambiguous. That is, they may be performed for free, or may cost the full amount of ΔV. They will also be ignored if considered impractical.
+* Departing for home (however you choose to define that) is optional and should be considered seperately. We want to look over the full range of exploration options, and how many real world spacecraft have returned from interplanetary space?
+
+# Our solar system around "typical" A, G, and K stars #
+This uses the scaling derived in the previous post. Earth and Mars are treated as being in coplanar circular orbits, which is close enough to correct for getting a rough estimate. Their orbits are also assumed to scale in sync.
+
+First, a quick review of the stars/planets involved.
+
+|                     |Sol-G (normal) |Earth                |Mars       |
+|---------------------|---------------|---------------------|-----------|
+|Mass (kg)            |1.98847542E+030|5.97236473041977E+024|6.4171E+023|
+|Radius (m)           |N/A            |6.3781E+006          |3.3895E+006|
+|Semi-Major Axis (au) |N/A            |1                    |1.52       |
+
+|            |Sol-A (2.0 M$$_\odot$$) |Earth                |Mars       |
+|---------------------|---------------|---------------------|-----------|
+|Mass (kg)            |3.97695084E+030|5.97236473041977E+024|6.4171E+023|
+|Radius (m)           |N/A            |6.3781E+006          |3.3895E+006|
+|Semi-Major Axis (au) |N/A            |4                    |6.08       |
+
+|          |Sol-K (0.5 M$$_\odot$$) |Earth                |Mars       |
+|---------------------|-------------|---------------------|-----------|
+|Mass (kg)            |9.9423771E+29|5.97236473041977E+024|6.4171E+023|
+|Radius (m)           |N/A          |6.3781E+006          |3.3895E+006|
+|Semi-Major Axis (au) |N/A          |0.5                  |0.76       |
+
+
+Now to mix and match orbital maneuvers (rounded to the nearest m/s).
+
+|Star|Earth Surface to Orbit|LEO to Mars Transfer|Mars Surface to Orbit|LMO to Earth Transfer|Round Trip
+|----|-------|------|------|------|-------|
+Sol-G | 9341 | 3569 | 4145 | 2083 | 19139 |
+Sol-A | 9341 | 3405 | 4145 | 1770 | 18671 |
+Sol-K | 9341 | 3866 | 4145 | 2654 | 20007 |
+
+Surprisingly, it turns out that the [Oberth effect][Oberth wiki] completely dominates transfers, washing out the differences caused by the varying orbits. These are further washed out if there is any need for expending propellant for descent/ascent, as these are unchanged. Even the most extreme sub-case (returning to Earth from Mars) is only a bit more than 10% larger for the 0.5 M$$_{\odot}$$ late K/early M version of Sol than for the 2 M$$_{\odot}$$ early to mid A version!
+
+If anything, the residents of a solar system analog around a K-type star benefit the most. Interplanetary travel is only modestly more expensive than around an A or F star, and launch windows are up to twice as frequent (1.5 vs 2.14 vs 3 years). The same savings on life support may well overcome the notably modest ΔV penalities (transfer times of 182 vs 258 vs 365 days).
+
+# Kepler-62
+[Kepler-62 is a K2V star with 6 known planets orbiting it.][Kepler-62 wiki] Two of them (Kepler-62 e and Kepler-62 f) are a pair of super-earths with insolations that make them plausibly habitable. Taking them as being sort of like Earth and Mars in the above case:
+
+|                 |Kepler-62(0.69 M$$_\odot$$) |e (4.5 M🜨) |f (2.5 M🜨) | 
+|---------------------|--------------|---------------------|-----------|
+|Mass             | 0.69 M$$_\odot$$ | 4.5 M🜨              | 2.5 M🜨    |
+|Mass (kg)            | 1.372E+030     | 2.688E+025            | 1.493E+025  |
+|Radius (R🜨)          | N/A          | 1.61                | 1.41      |
+|Radius (m)           | N/A          | 1.0268741E+007         | 8.993121E+006|
+|Semi-Major Axis (au) | N/A          | 0.427               | 0.718     |
+|Orbital Period (years)| N/A         | 0.336               | 0.732     |
+|Surface to 200 km orbit (m/s)| N/A  | 15707               | 12494     |
+|Transfer to other body (m/s)| N/A   | 5857                | 4782      |
+
+Launch windows show up every 0.621 years (227 days), and transfers take 0.521 years (190 days).
+
+This time the ΔV costs are significantly larger. The high planet masses mean that just getting off the surface costs ~2-3x as much as compared with Earth and Mars. This does help somewhat to reduce transfer costs, but those remain substantial. (Larger than the 0.5 M$$_{\odot}$$ case, as these two planets are proportionally somewhat farther apart than Earth and Mars.)
+That a flyby of Kepler-62 e from Kepler-62 f costs more ΔV than a Mars orbiter from Earth, and a flyby from e to f is comparable to an Earth-Mars-Earth roundtrip (with aerocapture) is stark comment on just how hard spaceflight may be for some aliens.
+
+The frequency of transfer windows and length of flight times are vaguely like those involved with Venus missions. Certainly they help, and if not for that massive ΔV hump could allow for crewed ones with relatively limited spaceflight capabilities.
+
+I'm presently ignoring the interior planets for their hellish conditions. Kepler-62 d is even more massive than e at 5.5 M🜨, and sees more than double the insolation of Mercury. The innermost two planets are less massive, but with still more starlight...
+
+
+# Overall
+Apparently planetary masses and relative seperations are more important than the distance to the star, at least when restricted to the habitable zone. All hail Oberth, I guess. This technically doesn't consider how much each extra m/s of ΔV or day of transit time actually matters, but that seems like the sort of detail better suited to an aerospace engineering project or worldbuilding for a specific SF setting. Presumably one could use [Project Rho][nyrath]'s resources, though it tends to assume our planetary system specifically.
+
+It was surprisingly hard to find good exo-earth analogs. I know that we've found far more hot jupiters and neptunes, but still...
+
+Eventually, travel across more or less the entirety of of our solar system, rescales of it, Kepler-62, and [TRAPPIST-1][trappist-1].
+
+[Patched conics wiki]: https://en.wikipedia.org/wiki/Patched_conic_approximation
+[braeunig]: http://www.braeunig.us/space/orbmech.htm
+[Hohmann wiki]: https://en.wikipedia.org/wiki/Hohmann_transfer_orbit
+[bi-elliptic wiki]: https://en.wikipedia.org/wiki/Bi-elliptic_transfer
+[Oberth wiki]: https://en.wikipedia.org/wiki/Oberth_effect
+[SOI wiki]: https://en.wikipedia.org/wiki/Sphere_of_influence_(astrodynamics)
+[Amazon]: https://www.amazon.com/Fundamentals-Astrodynamics-Dover-Aeronautical-Engineering/dp/0486600610/
+[KSP]: http://www.kerbalspaceprogram.com
+[nyrath]: https://www.project-rho.com
+[kepler-62 wiki]: https://en.wikipedia.org/wiki/Kepler-62
+[HZ]: https://en.wikipedia.org/wiki/Circumstellar_habitable_zone
+[trappist-1]: http://trappist.one
+[mass_scale1]: https://pdn4kd.github.io/2018/04/27/mass_scale1.html

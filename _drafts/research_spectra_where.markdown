@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Research: What Wavelengths Should We Look in?"
-date:   2018-06-01 00:00:00 -0400
+date:   2018-10-01 00:00:00 -0400
 tags: Exoplanets, Research, Spectra
 ---
 <script type="text/javascript" async
