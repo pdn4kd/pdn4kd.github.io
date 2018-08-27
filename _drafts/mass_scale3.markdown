@@ -8,7 +8,7 @@ tags: Exoplanets
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-[Previously][mass_scale2], there was a limited comparison of our solar system with Kepler-62. But there are far more systems.
+[Previously][mass_scale2], there was a limited comparison of our solar system with Kepler-62. But there are far more systems, and far more places to visit within a star system.
 
 How about the entirety (ish) of Sol, Kepler-62, and TRAPPIST-1?
 
