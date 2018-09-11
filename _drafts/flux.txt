@@ -18,3 +18,5 @@ http://www.stsci.edu/hst/nicmos/tools/conversion_help.html
 AB magnitudes: 0 is 3631 Jy, so mag = -2.5 log10(flux/3631 Jy)  (flux does not vary with passband)
 (maggies, used by SDSS and sort of like sort of like AB mags. m = 22.5 mag - 2.5log10(flux) (maggies are really a flux f)
 Asinh magnitudes (SDSS and others. Gunn, Lupton, etc, c. 1999)
+
+Sun's V-band magnitude is different (but still within error bars) in AB and Vega: https://arxiv.org/abs/1804.07788
