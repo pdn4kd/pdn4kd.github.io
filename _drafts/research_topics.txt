@@ -14,3 +14,9 @@ A UMKC wrapup:
 What I did (ideas, code)
 what I found (get old graphs)
 Why it wasn't all that helpful (Schawinski vs Meert, and how my data was too small for the distributions, most galaxies are intermediate, etc.)
+
+example posts?
+Site selection: Dec and weather vs obs (also a bit about atmosphere?)
+Atmospheric losses (also useful for amatures!)
+RV single measurement precision and Beatty's spectrum model
+Dispatch Scheduler (lots)

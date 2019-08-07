@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Interplanetary travel in other star systems 3"
-date:   2018-10-01 00:00:00 -0400
+date:   2019-07-01 00:00:00 -0400
 tags: Exoplanets
 ---
 <script type="text/javascript" async
