@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   It seemed like a good idea at the time‥
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: newpa_hasai
+twitter_username: patrick_exo
 github_username:  pdn4kd
 mastodon:
  - username: newpa_hasai
@@ -28,7 +28,7 @@ mastodon:
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
+plugins_dir:
   - jekyll-feed
 
 # Exclude from processing.
