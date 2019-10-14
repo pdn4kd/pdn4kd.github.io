@@ -2,7 +2,7 @@
 layout: post
 title:  "Habitable Planets"
 date:   2018-12-03 00:00:00 -0500
-categories: astronomy, exoplanets, life, rants
+tags: astronomy, exoplanets, life, rants
 ---
 # We don't [yet] know what makes a planet habitable
 For the first half of the twentieth century, we had only a vague understanding of what made a planet in our solar system habitable. They were no longer mere points of of light, but the unkowns still dominated. Even as late as 1960, it was still reasonable to imagine Mars and Venus teeming with life. By 1975, our improved knowledge had shown that they were barren. (While there are still reasons to be hopeful about Venus' upper atmosphere and Mars' interior, any biomass would make the antarctic interior seem incredibly lush)
@@ -25,7 +25,7 @@ Beyond the "habitable zone" proper, there are many places where there can still 
 # Even if we find a habitable world, we might not recognize it
 Our observations of the martian atmosphere don't completely rule out life, but [it must be quite rare.](https://arxiv.org/abs/1811.08501). Ocean worlds (that is, ones with an extensive upper layer of water and no exposed land), [suffer from a lack of nutrients that is likely to hamper life.](https://www.liebertpub.com/doi/10.1089/ast.2017.1729) I don't know of any reason that this will stop hydrothermal vent communities, but those tend to be difficult to observe unless you are literally right on top of them. The situation is likely even worse if the bottm of the ocean is in contact with high pressure ice instead of rock, though that's more of a problem for something Earth-sized.
 
-The net effect is that if worlds sufficiently unlike our own harbor life, it may be too hidden and/or sparse to be found anytime soon. By mass, [most life on earth is (land) planets, followed distantly by (crustal) bacteria and (oceanic) animals. In decending order of total mass, life is land based first, oceanic second, and crustal third.](https://doi.org/10.1073/pnas.1711842115) One would hope that this order holds elsewhere, as it is also least to most detectable. Yet in outer solar system moons and exoplanets that are not extremely earthlike, this may also be the order from least to most habitable. 
+The net effect is that if worlds sufficiently unlike our own harbor life, it may be too hidden and/or sparse to be found anytime soon. By mass, [most life on earth is (land) plants, followed distantly by (crustal) bacteria and (oceanic) animals. In decending order of total mass, life is land based first, oceanic second, and crustal third.](https://doi.org/10.1073/pnas.1711842115) One would hope that this order holds elsewhere, as it is also least to most detectable. Yet in outer solar system moons and exoplanets that are not extremely earthlike, this may also be the order from least to most habitable. 
 
 # We don't know what we don't know
 Basically, don't take the term "habitable zone" too literally. Our knowledge of these environments is poorly defined, and will be for a number of decades. Even in our 'backyards', mysteries remain. If you're writing hard science fiction set on alien worlds, you can largely go wild. And if you somehow solve one or more of these things so we can easily find life (or lack thereof), please tell me?

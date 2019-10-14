@@ -2,7 +2,7 @@
 layout: post
 title:  "Actually Existing Space Warfare"
 date:   2019-10-14 18:00:00 -0400
-categories: space travel, silliness
+tags: space travel, silliness
 ---
 # A complete list of celestial bodies intentionally bombed by the United States of America (as of 2019-10-14)
 
@@ -59,14 +59,14 @@ Notes: Many of these are end-of mission deorbitings. Earth is not included becau
 |1972|Moon|Apollo 16 PFS-2|Subsatellite launched to measure lunar particles and fields. Helped to lead to the discovery of masscons|
 |19xx|Moon|Apollo 15 PSF-1|Subsatellite launched to measure charged particles and magentic fields. Turned off in 1973, but probably crashed shortly thereafter due to masscons|
 |19xx|Moon|Explorer 49|Turned off in 1977, orbit must have decayed, but exact crash date and location is unkown|
-|1971|Mars 2 Lander|Orbiter was more successful|
-|1973|Mars 6 Lander|Probably crashed|
+|1971|Mars|Mars 2 Lander|Orbiter was more successful|
+|1973|Mars|Mars 6 Lander|Probably crashed|
 |196x|Moon|Luna 22|Defunct as of 1975, fate unknown but has likely crashed by now|
 |199x|Moon|Hagoromo|Probable crash, attempted to orbit in 1990|
-|1992|Pioneer Venus|Orbit more or less decayed naturally|
+|1992|Venus|Pioneer Venus|Orbit more or less decayed naturally|
 |1993|Moon|Hiten||
 |1999|Mars|Mars Climate Orbiter|The infamous unit messup|
-|1999|Mars|Mars Polar Lander|RIP, "Faster, Cheaper, Better"|
+|1999|Mars|Mars Polar Lander|RIP "Faster, Cheaper, Better"|
 |2005|25143 Itokawa|Hayabusa|Marginal sample collection|
 |2006|Moon|SMART-1||
 |2008|Moon|Moon Impact Probe|Launched alongside Chandrayaan-1|
@@ -80,4 +80,4 @@ Notes: Many of these are end-of mission deorbitings. Earth is not included becau
 |2019|Moon|Beresheet|First for both Israel and a private company|
 |2019|Moon|Vikram|Fairly low speed crash due to almost landing successfully|
 
-Notes: Information on the fates of the ambiguous lunar orbiters (if it exists) would be greatly appreciated. No Martian orbiter is included, as it is unclear that any have yet crashed.
+Notes: Information on the fates of the ambiguous lunar orbiters (if it exists) would be greatly appreciated. No Martian orbiter is included, as it is unclear that any have yet crashed. It's possible that Soviet or ESA Venus orbiters should be included, though I know little about them.
