@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fν, Fλ, Janskys, AB magnitudes, Vega magnitudes, and calcuations between them"
-date:   2020-10-28 13:00:00 -0500
+date:   2020-10-28 13:00:00 -0400
 categories: astronomy, units, research notes
 ---
 <script type="text/javascript" async
