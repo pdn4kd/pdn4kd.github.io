@@ -2,7 +2,7 @@
 layout: post
 title:  "Fν, Fλ, Janskys, AB magnitudes, Vega magnitudes, and calcuations between them"
 date:   2020-10-28 13:00:00 -0400
-Tags: astronomy, units, research
+Tags: Astronomy, research, units
 ---
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
@@ -58,7 +58,7 @@ In general, you can convert a flux into a vega mag with $$-2.5 \cdot log_{10}(\f
 # Bandwidth and wavelength range
 For all of this, I am assuming that one can work with known "end points" (really the FWHM) of a given passband, and that one can treat the flux as being constant across the entire range, then 0 outside of it. This tends to be good enough, though often one just knows the cenerpoint and wavelength range, and wants to do the relevant conversions in as few steps as possible.
 
-Assuming that you know either the max and min wavelengths (λ_2 and λ_1), or peak wavelength and FWHM (λ and Δλ) and want the bandwidth (Δν):
+Assuming that you know either the max and min wavelengths ($$λ_2$$ and $$λ_1$$), or peak wavelength and FWHM (λ and Δλ) and want the bandwidth (Δν):
 
 
 $$Δν = ν_1 - ν_2 = \frac{c}{λ_1} - \frac{c}{λ_2} = \frac{c \cdot (λ_2-λ_1)}{λ_1 λ_2} = \frac{c \cdot Δλ}{λ^2 - Δλ^2/4}$$
@@ -66,9 +66,9 @@ $$Δν = ν_1 - ν_2 = \frac{c}{λ_1} - \frac{c}{λ_2} = \frac{c \cdot (λ_2-λ_
 
 # A (silly) example
 
-You measure a power of 130 W/m in [V band (λeff = 5448 Å, FWHM = 840 Å per Bessel 2005)](https://doi.org/10.1146/annurev.astro.41.082801.100251), and want the magnitude:
+You measure a power/area of 130 W/m² in [V band (λeff = 5448 Å, FWHM = 840 Å per Bessel 2005)](https://doi.org/10.1146/annurev.astro.41.082801.100251), and want the magnitude:
 
-Δν ~= 85.352 GHz
+Δν ~= 85.352 THz
 
 flux ~= 1.523e-12 W/m²/Hz = 1.523e14 Jy
 
