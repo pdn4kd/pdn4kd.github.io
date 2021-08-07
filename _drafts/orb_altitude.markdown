@@ -20,7 +20,7 @@ Spending as little ΔV as possible means capturing into what amounts to a parabo
 # Okay, but what about circularizing?
 In principle, an extreme ellipse is also the best orbit to do a transfer burn home in, provided you burn at periapsis. In reality, that may not be practical, so it's worth looking at circularization costs.
 
-# And if I'm heading to an iarless rock, where should I land?
+# And if I'm heading to an airless rock, where should I land?
 Burning directly to/from a transfer orbit from/to a landing site isn't actually that absurd. Sure, it reduces flexability in where you can land, but it does surprisingly well in terms of ΔV. To wit:
 
 
