@@ -21,7 +21,7 @@ Energy of an orbit in a few different ways: $$E = \frac{v^2}{2}-\frac{μ}{r} = \
 
 # Vertical Ascent
 Altitude that you can reach with a given $$\Delta v$$ expenditure:
-$$\frac{1}{r_2} = \frac{v^2}{2μ} - \frac{1}{r_1}$$ or $$-2μ r_1/(v^2 r_1 - μ) = r_2$$
+$$\frac{1}{r_2} = \frac{v^2}{2μ} - \frac{1}{r_1}$$ or $$r_2 = \frac{-2μ r_1}{v^2 r_1 - μ}$$
 
 Expenditure for going straight up:
 $$\Delta v = \sqrt{2μ(\frac{1}{r_1}-\frac{1}{r_2})}$$
