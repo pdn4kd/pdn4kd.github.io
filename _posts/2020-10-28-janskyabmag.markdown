@@ -14,7 +14,7 @@ While there are other magnitude systems ([SDSS uses maggies and asinh magnitudes
 # Janskys (Jy)
 The [Jansky]() is, while not technically an SI unit, the closest thing to a One True Flux Unit we have, and the conversions aren't terrible (compare with rad to gray, and sievert to rem). It's possible that the pluralization should be Janskies, but given that it's named after a person, I have doubts.
 
-1 Jansky == 1e-26 W/m²/Hz (MKS), or 1e-23 ergs/s/cm²/Hz (CGS)
+1 Jansky == 10$$^{-26}$$ W/m²/Hz (MKS), or 10$$^{-23}$$ ergs/s/cm²/Hz (CGS)
 
 That is, the Jansky is an $$F_ν$$ type unit (flux per unit frequency or per unit bandwidth). What are effectively variants of it that directly list power per area per frequency with a different scaling factor show up quite frequently in the literature (often as kJy, though not named that).
 
@@ -32,7 +32,7 @@ The Jansky is functionally closely related to [AB magnitudes](https://en.wikiped
 
 $$m_{AB} = -2.5\cdot log_{10}(flux_{Jy}) + 8.90 \approx -2.5\cdot log_{10}(\frac{flux_{Jy}}{3630.78 Jy})$$
 
-$$flux_{Jy} = 10^{-0.4 \cdot (m_{AB} - 8.90)} = 10^{0.4\cdot m_{AB}}$$
+$$flux_{Jy} = 10^{-0.4 \cdot (m_{AB} - 8.90)} = 10^{3.56 - 0.4\cdot m_{AB}}$$
 
 The origional sources (and wikipedia) tend to show 48.6 instead of 8.9. This is because they are using CGS units (ergs/s/cm²/Hz) for flux instead of Jy. You may also see something slightly different for the magnitude figures ([eg: 48.574](https://arxiv.org/pdf/astro-ph/0502120.pdf)) or zero-point number of Janskys (eg: 3720 Jy). These are based on slightly different calibrations, often related to measurements of the brightness of Vega or generally trying to make sure that in V-band, AB mags and Vega mags are the same.
 For completeness:
