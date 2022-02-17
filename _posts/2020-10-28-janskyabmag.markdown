@@ -34,7 +34,7 @@ $$m_{AB} = -2.5\cdot log_{10}(flux_{Jy}) + 8.90 \approx -2.5\cdot log_{10}(\frac
 
 $$flux_{Jy} = 10^{-0.4 \cdot (m_{AB} - 8.90)} = 10^{3.56 - 0.4\cdot m_{AB}}$$
 
-The origional sources (and wikipedia) tend to show 48.6 instead of 8.9. This is because they are using CGS units (ergs/s/cm²/Hz) for flux instead of Jy. You may also see something slightly different for the magnitude figures ([eg: 48.574](https://arxiv.org/pdf/astro-ph/0502120.pdf)) or zero-point number of Janskys (eg: 3720 Jy). These are based on slightly different calibrations, often related to measurements of the brightness of Vega or generally trying to make sure that in V-band, AB mags and Vega mags are the same.
+The original sources (and wikipedia) tend to show 48.6 instead of 8.9. This is because they are using CGS units (ergs/s/cm²/Hz) for flux instead of Jy. You may also see something slightly different for the magnitude figures ([eg: 48.574](https://arxiv.org/pdf/astro-ph/0502120.pdf)) or zero-point number of Janskys (eg: 3720 Jy). These are based on slightly different calibrations, often related to measurements of the brightness of Vega or generally trying to make sure that in V-band, AB mags and Vega mags are the same.
 For completeness:
 
 $$m_{AB} = -2.5\cdot log_{10}(flux_{CGS}) - 48.6$$
@@ -52,21 +52,21 @@ These were originally based on the flux of Vega in a given magnitude bin (first 
 Also, "Vega" because sometimes α-Lyr itself is the standard, sometimes an average of several A0V stars is, sometimes a blackbody (anywhere from 9000 K to 11000 K), and sometimes an atmospheric model (eg: Kurucz) is used. You'll need to check a given paper or dataset's methods for what their zero-points are.
 This also leads to fun things like [the Sun's V-band magnitude being different (but still within error bars) between the AB and Vega systems](https://arxiv.org/abs/1804.07788).
 
-In general, you can convert a flux into a vega mag with $$-2.5 \cdot log_{10}(\frac{flux_{Jy}}{flux_{Vega}})$$ if you know the Vega flux in that band. (I'm assuming that both are in Jy, but it doesn't matter as long as the units are the same for both)
+In general, you can convert a flux into a vega mag with $$-2.5 \cdot log_{10}(\frac{flux_{Jy}}{flux_{Vega}})$$ if you know the Vega flux in that band. There are also versions that have a seperate zero-point term, but that's just more complication for no value. (I'm assuming that both are in Jy, but it doesn't matter as long as the units are the same for both.) For a reference for zero-point fluxes, I recommend Table A2 in [Bessell 1998](https://ui.adsabs.harvard.edu/abs/1998A%26A...333..231B/abstract) (which has an irrelevant [erratum](https://ui.adsabs.harvard.edu/abs/1998A%26A...337..321B/abstract). Or in [webpage form](https://www.astronomy.ohio-state.edu/martini.10/usefuldata.html))
 
 
 # Bandwidth and wavelength range
 For all of this, I am assuming that one can work with known "end points" (really the FWHM) of a given passband, and that one can treat the flux as being constant across the entire range, then 0 outside of it. This tends to be good enough, though often one just knows the cenerpoint and wavelength range, and wants to do the relevant conversions in as few steps as possible.
 
-Assuming that you know either the max and min wavelengths ($$λ_2$$ and $$λ_1$$), or peak wavelength and FWHM (λ and Δλ) and want the bandwidth (Δν):
+Assuming that you know either the max and min wavelengths ($$λ_2$$ and $$λ_1$$), or peak wavelength and FWHM ($$λ_{eff}$$ and Δλ) and want the bandwidth (Δν):
 
 
-$$Δν = ν_1 - ν_2 = \frac{c}{λ_1} - \frac{c}{λ_2} = \frac{c \cdot (λ_2-λ_1)}{λ_1 λ_2} = \frac{c \cdot Δλ}{λ^2 - Δλ^2/4}$$
+$$Δν = ν_1 - ν_2 = \frac{c}{λ_1} - \frac{c}{λ_2} = \frac{c \cdot (λ_2-λ_1)}{λ_1 λ_2} = \frac{c \cdot Δλ}{λ_{eff}^2 - Δλ^2/4}$$
 
 
 # A (silly) example
 
-You measure a power/area of 130 W/m² in [V band (λeff = 5448 Å, FWHM = 840 Å per Bessel 2005)](https://doi.org/10.1146/annurev.astro.41.082801.100251), and want the magnitude:
+You measure a power/area of 130 W/m² in [V band ($$λ_{eff}$$ = 5448 Å, FWHM = 840 Å per Bessel 2005)](https://doi.org/10.1146/annurev.astro.41.082801.100251), and want the magnitude:
 
 Δν ~= 85.352 THz
 
@@ -77,3 +77,6 @@ AB mag ~= -26.56
 Vega mag (using a zero-point of 3720 Jy) ~= -26.53
 
 (Yes, this is of a certain star whose bolometric flux is ~1361 W/m²)
+
+# Revisions
+2022-02-16: fixed a typo, added Vega mag source, increased clarity on peak wavelength.
