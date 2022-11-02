@@ -21,6 +21,7 @@ A hopefully complete listing of papers (etc) that I've been involved in.
 
 ["Joint Radial Velocity and Direct Imaging Planet Yield Calculations. I. Self-consistent Planet Populations"](https://ui.adsabs.harvard.edu/abs/2020ApJ...893..122D/abstract), part of a hopefully ongoing collaboration with realistic exoplanets as targets for injection/recovery tests (since my code only does the surveys and a subset of noise sources. So we need actual planet signals...)
 
+["The TESS Grand Unified Hot Jupiter Survey. II. Twenty New Giant Planets"](https://arxiv.org/abs/2210.15473), another large planet detection paper where I helped with data collection in the transit-followup role.
 
 # Other
 I'd certainly be willing to put up my old slides/posters up here, but I'm not sure there's any interest since it would be either undergrad work or covered by current/upcoming papers. At least some of the details of my work is going to end up as blog posts.
