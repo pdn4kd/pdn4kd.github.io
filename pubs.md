@@ -15,6 +15,8 @@ A hopefully complete listing of papers (etc) that I've been involved in.
 
 ["TESS Delivers Five New Hot Giant Planets Orbiting Bright Stars from the Full-frame Images"](https://ui.adsabs.harvard.edu/abs/2021AJ....161..194R/), a "Cargo-ship paper" in Joey Rodriguez's terms. (Admittedly this was just collecting data for TOI-1601 b. I probably count as an experienced operator for our 0.8 m telescope)
 
+["Another Shipment of Six Short-Period Giant Planets from TESS"](https://ui.adsabs.harvard.edu/abs/2022arXiv220505709R/abstract), a second "cargo-ship paper" with Joey Rodriguez as the lead author. In this case, my data collection was for TOI-2025 b.
+
 ["EarthFinder Probe Mission Concept Study: Characterizing nearby stellar exoplanet systems with Earth-mass analogs for future direct imaging"](https://ui.adsabs.harvard.edu/abs/2020arXiv200613428P/abstract), since an orbital RV survey may work better(!) than the ground-based ones that have been my primary focus.
 
 ["The Habitable Exoplanet Observatory (HabEx) Mission Concept Study Final Report"](https://ui.adsabs.harvard.edu/abs/2020arXiv200106683G/abstract), a mission like HabEx (or LUVOIR) is of course the mid-term goal for a lot of astronomers. A very large mission that could well give us photometry (and in some cases low resolution spectroscopy and even maps) of earth-like worlds.
@@ -27,3 +29,5 @@ A hopefully complete listing of papers (etc) that I've been involved in.
 I'd certainly be willing to put up my old slides/posters up here, but I'm not sure there's any interest since it would be either undergrad work or covered by current/upcoming papers. At least some of the details of my work is going to end up as blog posts.
 
 ["A Flexible Python Observatory Automation Framework for the George Mason University Campus Telescope"](https://ui.adsabs.harvard.edu/abs/2021tsc2.confE...8R/abstract), we're moving towards increasingly automating the campus telescope (see above on doing transit follow-up observations), and my contributions to research observing also fed into beta-testing the code and suggesting features/bug-fixes. I'm currently listing a conference abstract, though this is also becoming a paper.
+
+ ["Methods of Data Analysis on TESS Observations"](https://ui.adsabs.harvard.edu/abs/2021tsc2.confE..10K/abstract), an example of the work we're doing with a pipeline of those observations and exoplanet follow-up. Hence why I can claim to eg: be a co-discoverer of TOI-1601 b.
