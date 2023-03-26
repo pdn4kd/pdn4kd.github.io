@@ -6,7 +6,7 @@ permalink: /pubs/
 A hopefully complete listing of papers (etc) that I've been involved in.
 
 # First-author Publications
-[EPRV Sims Technical Report](https://exoplanets.nasa.gov/internal_resources/1950) ([part of the NASA-NSF EPRV initiative](https://exoplanets.nasa.gov/exep/NNExplore/EPRV/)). A modified version that's an actual paper has been submitted.
+[EPRV Sims Technical Report](https://exoplanets.nasa.gov/internal_resources/1950) ([part of the NASA-NSF EPRV initiative](https://exoplanets.nasa.gov/exep/NNExplore/EPRV/)). A modified version that's an actual paper [has since been submitted and published.](https://doi.org/10.3847/1538-3881/acad07)
 
 # Relevant Co-author Publications
 [EPRV Working Group Final Report](https://ui.adsabs.harvard.edu/abs/2021arXiv210714291C/abstract) ([part of the NASA-NSF EPRV initiative](https://exoplanets.nasa.gov/exep/NNExplore/EPRV/)). My portion is (unsurprisingly) listed in more depth in the technical report.
