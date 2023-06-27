@@ -73,4 +73,4 @@ Having zeroed out my horizontal velocity a bit ove the ground, I'm now doing a n
 ![Landed!](/images/screenshot146.png "The lander is on the surface.")
 And safely landed. The method works! Albeit somewhat inefficiently.
 
-I expended 745 m/s, which suggests that there's room for improvement. In reality, the breakdown suggests that any efficiency increase would require a different method to minimize any sort of vertical drop. (541 m/s dropping from orbit, ~191 stopping the fall, and ~13 m/s on final descent)
+I expended 745 m/s, which suggests that there's room for improvement. In reality, the breakdown suggests that gravity losses were minimal. (541 m/s dropping from orbit, ~191 stopping the fall, and ~13 m/s on final descent) Any efficiency increase would require [a different method to minimize any sort of vertical drop](orb_horizontal_vs_vertical).
