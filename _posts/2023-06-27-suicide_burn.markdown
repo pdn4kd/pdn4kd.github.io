@@ -2,7 +2,7 @@
 layout: post
 title:  "Timing Suicide Burns / Hoverslams"
 date:   2023-06-27 17:30:00 -0400
-tags: Kerbal Space Program, Astrodynamics
+tags: KSP
 ---
 <script type="text/javascript" async
    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Optimizing Stage Performance"
-date:   2018-09-01 00:00:00 -0500
-categories: Kerbal Space Program
+date:   2022-09-01 00:00:00 -0400
+categories: KSP, rocketry
 ---
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
