@@ -2,9 +2,9 @@
 layout: post
 title:  "Actually Existing Space Warfare"
 date:   2019-10-14 18:00:00 -0400
-tags: space travel, silliness
+tags: spaceflight silliness
 ---
-# A complete list of celestial bodies intentionally bombed by the United States of America (as of 2019-10-14)
+# A complete list of celestial bodies intentionally bombed by the United States of America (as of 2023-07-01)
 
 | Date | Body | Mission | Comments|
 | --- |:---:|:---:|:--- |
@@ -33,6 +33,7 @@ tags: space travel, silliness
 | 2014 | Moon | LADEE |  |
 | 2015 | Mercury | MESSENGER |  |
 | 2017 | Saturn | Cassini | Grand Finale |
+| 2022 | Dimorphos | DART | Moon of 65803 Didymos, flyby plus impactor |
 
 Notes: Many of these are end-of mission deorbitings. Earth is not included because this is intended to be funny, not depressing. Stages that acted in a "crasher" manner for landers (eg: heatshields, parachutes, sky-cranes) are also not counted, though stages crashed for seismic purposes or debris plumes are. Shoemaker-NEAR's hitting 433 Eros is considered a landing, and OSIRIS-REx's interactions with Bennu a touch-and-go.
 
@@ -79,5 +80,10 @@ Notes: Many of these are end-of mission deorbitings. Earth is not included becau
 |2019|162173 Ryugu|Hayabusa-2|Multiple strikes|
 |2019|Moon|Beresheet|First for both Israel and a private company|
 |2019|Moon|Vikram|Fairly low speed crash due to almost landing successfully|
+|2023|Moon|Hakuto-R|Moderate speed crash from faulty telemetry|
 
 Notes: Information on the fates of the ambiguous lunar orbiters (if it exists) would be greatly appreciated. No Martian orbiter is included, as it is unclear that any have yet crashed. It's possible that Soviet or ESA Venus orbiters should be included, though I know little about them.
+
+# Update history
+2019-10-14: first post, confident that it's complete.
+2023-07-01: updated, I might have missed something.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Telescope Sites I: Latitude, Pointing, and Sky"
 date:   2020-06-22 00:00:00 -0400
-Tags: Astronomy, research, telescopes
+Tags: astronomy research telescopes
 ---
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">

@@ -2,7 +2,7 @@
 layout: post
 title:  "Habitable Planets"
 date:   2018-12-03 00:00:00 -0500
-tags: astronomy, exoplanets, life, rants
+tags: astronomy exoplanets life rants
 ---
 # We don't [yet] know what makes a planet habitable
 For the first half of the twentieth century, we had only a vague understanding of what made a planet in our solar system habitable. They were no longer mere points of of light, but the unkowns still dominated. Even as late as 1960, it was still reasonable to imagine Mars and Venus teeming with life. By 1975, our improved knowledge had shown that they were barren. (While there are still reasons to be hopeful about Venus' upper atmosphere and Mars' interior, any biomass would make the antarctic interior seem incredibly lush)
