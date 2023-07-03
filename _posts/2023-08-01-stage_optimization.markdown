@@ -55,7 +55,7 @@ Perhaps the largest flaw in this is that the tankage mass found here cannot be e
 
 The payload mass is a partial misnomer, since it is really all of the parts of the rocket that are not engines, tankage, or fuel. This "payload" is not just whatever you want to put into orbit, but also any additional control systems, decouplers, fins, etc. that come along for the ride.
 
-Finally, you can plug in impossible missions to this. It will only be obvious because the *payload mass goes negative*!
+Finally, you can plug in impossible missions to this. It will only be obvious because the *payload mass goes negative*! Still, this method *is* useful for sizing (rocket) SSTOs, landers, etc.
 
 
 # Examples
@@ -112,6 +112,8 @@ Assumptions include: a 1.35 tonne payload, the LV-909 "Terrier" operates entirel
 The maximum Δv configuration is probably non-viable due to TWR constraints, so the sort of stage you'd lean towards intuitively is probably better (this will be a theme of this section).
 
 ![Example early campaign rocket after optimization image](/images/screenshot177.png)
+
+Given the current mass and part count situation, one could argue instead for dropping the tankage slightly and adding an RT-10.
 
 Iterating around with the other engines available at this point on the tech tree:
 
