@@ -43,7 +43,7 @@ Finally total cost is: $$Δv = \sqrt{2μ(\frac{1}{r_1}-\frac{1}{r_1+r_2})} + \sq
 # Comparison and Conclusion
 These Δv costs of getting to a given altitude, circularizing, and overall for getting to orbit can be graphed generically with a few assumptions. Setting the planet's gravitational parameter and radius to 1, they look like:
 
-![Graph of Δv vs apoapsis for horizontal vs vertical ascents into a circular orbit at a given altitude. Δv has been normalized so that a circular orbit at 1 planetary radius is 1.0 and escape is √2 or about 1.4.](/images/ascents.png)
+![Horziontal vs vertical ascent components.](/images/ascents.png "Graph of Δv vs apoapsis for horizontal vs vertical ascents into a circular orbit at a given altitude. Δv has been normalized so that a circular orbit at 1 planetary radius is 1.0 and escape is √2 or about 1.4.")
 
 (With this normalization, a circular orbit at the surface is 1, and escape is √2 or ~1.4.
 
