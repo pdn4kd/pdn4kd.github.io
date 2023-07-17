@@ -65,5 +65,5 @@ When the full relativistic equation is used, the photon rocket suffers greatly, 
 
 ![relativistic-comparison](/images/rockets-comparison.png "comparing")
 
-Finally, a comparison (1-way) Δv in the classical (dashed) and relativistic (solid) regimes. Rather strikingly, they overlap for everything except the photon rocket (mainly because it's the only one that gets up past xx c). Of course, if one doesn't burn *all* their fuel trying to get that last few percent of c, they accelerate and deccelerate many times to close to it.
+Finally, a comparison (1-way) Δv in the classical (dashed) and relativistic (solid) regimes. Rather strikingly, they overlap for everything except the photon rocket (mainly because it's the only one that gets up past 0.2 c). Of course, if one doesn't burn *all* their fuel trying to get that last few percent of c, they accelerate and decelerate many times to close to it.
 
