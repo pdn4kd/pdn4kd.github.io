@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Optimizing Stage Performance"
-date:   2023-08-01 00:00:00 -0400
+date:   2023-08-10 00:00:00 -0400
 tags: KSP rocketry
 ---
 <script type="text/javascript" async
