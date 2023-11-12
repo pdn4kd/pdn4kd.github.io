@@ -2,7 +2,7 @@
 layout: post
 title:  "Fν, Fλ, Janskys, AB magnitudes, Vega magnitudes, and calcuations between them"
 date:   2020-10-28 13:00:00 -0400
-Tags: astronomy research units
+Tags: astronomy research units notes
 ---
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
