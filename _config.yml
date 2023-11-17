@@ -25,11 +25,17 @@ github_username:  pdn4kd
 # - username: newpa_hasai
 #   instance: mastodon.social
 
+# Theme-specific settings
+minima:
+   date_format: "%Y-%m-%d"
+   skin: solarized
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins_dir:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

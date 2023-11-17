@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scaling Stellar P-mode pulsations/oscillations"
-date:   2023-12-01 00:00:00 -0500
+date:   2023-12-14 00:00:00 -0500
 categories: astronomy stars research exoplanets
 ---
 <script type="text/javascript" async
