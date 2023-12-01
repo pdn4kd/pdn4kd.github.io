@@ -39,4 +39,4 @@ https://adsabs.harvard.edu/abs/1994IAPPP..57...12S
 
 While not directly used, [Hayes & Latham (1975)](https://ui.adsabs.harvard.edu/abs/1975ApJ...197..593H/abstract), looks at multiple broadband and line absorption sources. Their categorization helped with organizing this, and I'd love to put together something that includes a few more lines.
 
-If you want to recreate this, the graphs were generated with [atmosphere.py](images/atmosphere.py)
+If you want to recreate this, the graphs were generated with [atmosphere.py](/images/atmosphere.py)
