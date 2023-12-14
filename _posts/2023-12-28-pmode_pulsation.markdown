@@ -14,7 +14,7 @@ Stars are not just serene spheres sitting in the sky. For that matter, they're n
 # The P-mode specifically
 This is a "pressure" mode, and is the most important one in more or less sun-like stars. It's a huge hassle for us in the RV community (because it adds a spurious signal), and so we want to remove it. The simple version is to observe the star for a timescale that's comparable to the length of the oscillation, so it averages out. For the sun this is about 5 minutes, though it varies with stellar mass, radius, etc. Also, if you get it wrong, you get *reduced* RV precision.
 
-In my (admittedly rather brief) search of the literature [^1][^2][^3][^4][^5] it looks like the vast majority of the work is in characterization details that, while useful for modeling the stellar interior, are unrelated to what I want (removing the "noise"). But the typical timescale for the p-mode appears to more or less match up with the dynamical timescale:
+In my (admittedly rather brief) search of the literature [^1][^2][^3][^4][^5] it looked like the vast majority of the work is in characterization details that, while useful for modeling the stellar interior, are unrelated to what I want (removing the "noise"). But the typical timescale for the p-mode appears to more or less match up with the dynamical timescale:
 
 $$ τ_{dyn} = \sqrt{\frac{R^3}{GM}} = \sqrt{\frac{1}{G\rho}} $$
 
@@ -25,6 +25,13 @@ So I went with that. The p-mode compensation sets a minimum time (in seconds) of
 $$ 300 \sqrt{\frac{R^3}{M}} $$
 
 Where R and M are in units of the sun.
+
+
+However, some source [^6][^7] took a more sophisticated approach, using effective temperature and surface gravity:
+
+$$ ν_{max} = 3100 μHz \left(\frac{g}{g_{sun}\right)^1 \left(\frac{T_{eff}}{T_{eff,sun}}\right)^{0.5} $$
+
+![comparison](/images/comparison.png) A comparison of our two models, making the assumption that values scale such that (R,T as functions of M)
 
 
 # Realistic stars
@@ -50,10 +57,15 @@ As for the stars themselves, the lists vary in size and there's some overlap:
 <img src="/images/mr_new.png" alt="M-R new." title="A Mass-Radius diagram of the stars in the 'new' target list. These are more constrainted to being FGK, with the possible subgiants still near the main sequence." width="49%">
 <img src="/images/mr_nasa.png" alt="M-R previous." title="A Mass-Radius diagram of the stars used in the previous paper. While mostly FGK, there are a few subgiants and one actual giant (in radius if nothing else)." width="49%">
 
-How much this messes with exposure times and the difficulties in compensation are being considered in my next paper (in prep). I plan to throw the target lists up here once it's been published.
+# The target lists with other method
+
+How much this messes with exposure times and the difficulties in compensation are being considered in my next paper (in prep). So far they appear to be easy enough to deal with, and perhaps we can kill p-modes once and for all ("just" leaving things like granulation, spots/plages, flares...). I plan to throw the target lists up here once it's been published.
+
 
 [^1]: An Introduction to Modern Astrophysics (Carroll & Ostlie) (aka: The Big Orange Book)
 [^2]: An Introduction to the Theory of Stellar Structure (Prialnik)
 [^3]: Understanding Stellar Evolution (Henry J G L M Lamers & Emily M Levesque)
 [^4]: Christensen–Dalsgaard 2014: https://users-phys.au.dk/~jcd/oscilnotes/
 [^5]: Aets et al 2014: https://ui.adsabs.harvard.edu/abs/2010aste.book.....A/abstract
+[^6]:
+[^7]:
