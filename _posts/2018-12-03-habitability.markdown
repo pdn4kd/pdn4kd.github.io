@@ -29,3 +29,5 @@ The net effect is that if worlds sufficiently unlike our own harbor life, it may
 
 # We don't know what we don't know
 Basically, don't take the term "habitable zone" too literally. Our knowledge of these environments is poorly defined, and will be for a number of decades. Even in our 'backyards', mysteries remain. If you're writing hard science fiction set on alien worlds, you can largely go wild. And if you somehow solve one or more of these things so we can easily find life (or lack thereof), please tell me?
+
+%need update on TRAPPIST 1 b being airless, 1 c being questionable, and the rest also uncertain: https://arxiv.org/abs/2401.16490

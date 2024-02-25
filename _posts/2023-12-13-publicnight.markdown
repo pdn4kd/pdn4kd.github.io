@@ -2,7 +2,7 @@
 layout: post
 title:  "Running a Telescope Viewing/Public Night Well"
 date:   2023-12-13 00:00:01 -0500
-tags: Space Astronomy Telescopes Rants
+tags: astronomy telescopes observing rants
 ---
 
 ## Stop Setting Events Up To Fail

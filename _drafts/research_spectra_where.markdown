@@ -2,7 +2,7 @@
 layout: post
 title:  "My Research: What Wavelengths Should We Look in?"
 date:   2017-10-01 00:00:00 -0400
-tags: Exoplanets, Research, Spectra
+tags: exoplanets research spectra
 ---
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">

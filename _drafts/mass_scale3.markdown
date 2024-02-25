@@ -2,7 +2,7 @@
 layout: post
 title:  "Interplanetary travel in other star systems 3"
 date:   2019-07-01 00:00:00 -0400
-tags: Exoplanets
+tags: exoplanets
 ---
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
