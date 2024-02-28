@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Planet Detection I - A Quick Heuristic"
-date:   2024-03-01 00:00:00 -0500
+date:   2024-02-29 00:00:00 -0500
 Tags: Astronomy research telescopes exoplanets
 ---
 <script type="text/javascript" async
