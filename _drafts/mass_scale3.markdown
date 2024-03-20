@@ -11,6 +11,7 @@ tags: exoplanets
 [Previously][mass_scale2], there was a limited comparison of our solar system with Kepler-62. But there are far more systems, and far more places to visit within a star system.
 
 How about the entirety (ish) of Sol, Kepler-62, and TRAPPIST-1?
+(also L 98-59 / TOI-175, TOI-700, Kepler-186, and LHS 1140)
 
 Again: 
 For this particular case I am assuming that orbital trips consist of:

@@ -30,7 +30,7 @@ A more or less complete listing of papers (etc) that I've been involved in.
 ["The TESS Grand Unified Hot Jupiter Survey. II. Twenty New Giant Planets"](https://arxiv.org/abs/2210.15473), another large planet detection paper where I helped with data collection in the transit-followup role.
 
 ## Other
-I'd certainly be willing to put up my old slides/posters up here, but I'm not sure there's any interest since it would be either undergrad work or covered by current/upcoming papers. At least some of the details of my work is going to end up as blog posts.
+I'd certainly be willing to put up my old slides/[posters](/postersetc/) up here, but I'm not sure there's any interest since it would be either undergrad work or covered by current/upcoming papers. At least some of the details of my work is going to end up as blog posts.
 
 ["A Flexible Python Observatory Automation Framework for the George Mason University Campus Telescope"](https://ui.adsabs.harvard.edu/abs/2021tsc2.confE...8R/abstract), we're moving towards increasingly automating the campus telescope (see above on doing transit follow-up observations), and my contributions to research observing also fed into beta-testing the code and suggesting features/bug-fixes. I'm currently listing a conference abstract, though this is also becoming a paper.
 
