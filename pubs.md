@@ -41,3 +41,4 @@ I'd certainly be willing to put up my old slides/posters up here, but I'm not su
 * [AAS 231](/postersetc/AAS229.pdf) with a somewhat more advanced version.
 * [Exoplanets II](/postersetc/ExoplanetsII.pdf) where I was presenting on space based EPRVs.
 * [Exoplanets IV](/postersetc/ExoplanetsIV.pdf) with a near-finished version of paper 1.
+* [SEEC 2024](/postersetc/SEEC2024.pdf) with draft information for paper 2. Bonus content: [an earlier version with a few more graphs](/postersetc/SEEC2024draft.pdf)
