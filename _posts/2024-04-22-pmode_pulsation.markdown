@@ -162,7 +162,7 @@ iLocator:
 
 Actual details in terms of observations/precision, etc will be discussed in the paper (in prep). That said, perhaps this can make a case that we can finally kill p-mode oscillations as a noise source once and for all. Which "just" leaves things like granulation, spots/plages (and the associated magnetic activity cycles), flares, etc. (Which admittedly can have *larger* effects than what I'm mitigating here)
 
-And, uh, I'm still mostly ignoring Earth's atmosphere here. (Just [general absorption with no microtellurics](atmosphere.markdown))
+And, uh, I'm still mostly ignoring Earth's atmosphere here. (Just [general absorption with no microtellurics]({% post_url 2023-11-30-atmosphere %}))
 
 Once the paper is up, I'll also want to put up these target lists. Stay tuned for more...
 
