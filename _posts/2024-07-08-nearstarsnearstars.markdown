@@ -8,7 +8,7 @@ Or, the Alpha Centauri system is the closest to Sol, but what's the closest to A
 
 Using [the 10 parsec sample](https://www.aanda.org/articles/aa/full_html/2021/06/aa40985-21/aa40985-21.html), (raw data [available at CDS](https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/650/A201)) and converting the spherical coordinates into rectangular, and then doing offsets, I get:
 
-The nearest stars and brown dwarfs to Alpha Cen A:
+## The nearest stars and brown dwarfs to Alpha Cen A:
 
 |Name|Distance (pc)|Type|
 |-|-|-|
@@ -19,7 +19,7 @@ The nearest stars and brown dwarfs to Alpha Cen A:
 |V1216 Sgr (Ross 154)|2.489|M3.5V (red dwarf)|
 
 
-Nearest stars and brown dwarfs to Luhman 16 (a brown dwarf binary):
+## The nearest stars and brown dwarfs to Luhman 16 (a brown dwarf binary):
 
 |Name|Distance (pc)|Type|
 |-|-|-|
@@ -30,7 +30,7 @@ Nearest stars and brown dwarfs to Luhman 16 (a brown dwarf binary):
 |Wolf 359|2.241|M6V (Red dwarf)|
 
 
-Nearest stars and brown dwarfs to Barnard's Star:
+## The nearest stars and brown dwarfs to Barnard's Star:
 
 |Name|Distance (pc)|Type|
 |-|-|-|
@@ -40,7 +40,7 @@ Nearest stars and brown dwarfs to Barnard's Star:
 |V2306 Oph (Wolf 1061)|2.823|M3V (red dwarf)|
 |61 Cyg A|2.858|K5V|
 
-Nearest stars and brown dwarfs to WISEA J085510.74-071442.5 (Generally considered the first Y-dwarf to be found)
+## The nearest stars and brown dwarfs to WISEA J085510.74-071442.5 (Generally considered the first Y-dwarf to be found)
 
 |Name|Distance (pc)|Type|
 |-|-|-|
@@ -50,7 +50,7 @@ Nearest stars and brown dwarfs to WISEA J085510.74-071442.5 (Generally considere
 |Luhman 16|1.875|L7.5 + T0.5 (brown dwarfs)|
 |Luyten's Star (Gj 273)|1.978|M3.5V (red dwarf)|
 
-Nearest stars and brown dwarfs to Wolf 359:
+## The nearest stars and brown dwarfs to Wolf 359:
 
 |Name|Distance (pc)|Type|
 |-|-|-|
