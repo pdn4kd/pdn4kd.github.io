@@ -4,11 +4,9 @@ title:  "EPRV Targetlist Results Graphs"
 date:   2025-02-28 00:00:01 -0500
 tags: research stars notes
 ---
-
-Results are grouped by relevant feature. There is some redundancy in the graphs. All captions should be considered rough notes.
+Results are grouped by relevant feature. There is some redundancy in the graphs. All captions should be considered rough notes. (This is the "green prime" list, as the rest are not explored in the paper at all)
 
 ## General Feature Histograms / all P-modes
-
 All 4 p-mode compensation methods are shown as seperate graphs here. They are ordered: fixed 5 minute, fixed 10 minute, scaled with stellar parameters (mass and radius), and scaled with stellar parameters (surface gravity and effective temperature).
 
 # Exposure Times
@@ -114,7 +112,6 @@ Total observation time per star as a function of Right Ascension (top) and Decli
 Histograms/PDFs (left) and CDFs (right) of the number of observations (top), SNR of a nominal 10 cm/s planet detection (middle), and minimum detectable reflex velocity k of a nominal SNR = 10 planet detection (bottom).
 
 # Fixed P-mode (10 minute) Results
-
 <img src="/images/EPRV/obspdf_eprv10_10year.png" width="49%">
 <img src="/images/EPRV/obscdf_eprv10_10year.png" width="49%">
 
@@ -127,7 +124,6 @@ Histograms/PDFs (left) and CDFs (right) of the number of observations (top), SNR
 Histograms/PDFs (left) and CDFs (right) of the number of observations (top), SNR of a nominal 10 cm/s planet detection (middle), and minimum detectable reflex velocity k of a nominal SNR = 10 planet detection (bottom).
 
 # Variable P-mode (M-R) Results
-
 <img src="/images/EPRV/obspdf_eprvp_10year.png" width="49%">
 <img src="/images/EPRV/obscdf_eprvp_10year.png" width="49%">
 
@@ -140,7 +136,6 @@ Histograms/PDFs (left) and CDFs (right) of the number of observations (top), SNR
 Histograms/PDFs (left) and CDFs (right) of the number of observations (top), SNR of a nominal 10 cm/s planet detection (middle), and minimum detectable reflex velocity k of a nominal SNR = 10 planet detection (bottom).
 
 # Variable P-mode (g-T) Results
-
 <img src="/images/EPRV/obspdf_eprve_10year.png" width="49%">
 <img src="/images/EPRV/obscdf_eprve_10year.png" width="49%">
 
@@ -153,7 +148,7 @@ Histograms/PDFs (left) and CDFs (right) of the number of observations (top), SNR
 Histograms/PDFs (left) and CDFs (right) of the number of observations (top), SNR of a nominal 10 cm/s planet detection (middle), and minimum detectable reflex velocity k of a nominal SNR = 10 planet detection (bottom).
 
 # Telluric Corrections / all P-modes
-Despite the earlier atmospheric assumptions, earth's atmosphere has many shallow lines that are difficult to correct for, especially in the infrared. To simulate this, we consider an additional noise term added in quadrature with the instrument and photon noise ones. We choose values of 3 cm/s for the visible spectrograph and 115 cm/s for the NIR spectrograph, as these [follow from the literature (Wang et al 2022)](https://ui.adsabs.harvard.edu/abs/2022AJ....164..211W/abstract).
+Despite the atmospheric assumptions earlier in the paper, Earth's atmosphere has many shallow lines that are difficult to correct for, especially in the infrared. To simulate this, I consider an additional noise term added in quadrature with the instrument and photon noise ones. I choose values of 3 cm/s for the visible spectrograph and 115 cm/s for the NIR spectrograph, as these [follow from the literature (Wang et al 2022)](https://ui.adsabs.harvard.edu/abs/2022AJ....164..211W/abstract).
 
 (This noise term was at least extremely easy to introduce, since we already have it split out into instrument and photon noise bits. Just another σ^2...)
 
