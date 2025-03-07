@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "The Melotte Catalog"
+date:   2025-03-07 18:10:00 -0400
+tags: astronomy
+---
+The Melotte Catalog is a listing of some 248 objects, mostly various open and globular clusters. You may have seen a few numbers on some large non-Messier open clusters (eg: alpha Persei, Hyades, Coma Bernecies). It's in Simbad to a degree, but there's no convenient CSV. ([ADS has scans of the origional paper](https://ui.adsabs.harvard.edu/abs/1915MmRAS..60..175M/abstract), but at best as images or as a PDF)
+
+As such, here it is in a tab-separated format: [Melotte catalog.tsv](/codeanddata/Melotte catalog.tsv)
+
+Note that my transcription isn't quite one-for-one. I've gone with slightly more modern orthography and corrected a typo (M 41 is listed as M 14). Though it's possible that I've introduced other errors.
+I have not added J2000 coordinates or cross-referenced with other object names.
+
+
+As an aside, it might be useful to give a distribution of where the objects are (...in epoch 1900):
+
+![RA and Dec graph](/images/MelotteRADE.png "The locations of the clusters in the Melotte catalog in c. 1900 right ascension and declination. Original numbers from the NGC and IC catalogs.")
+![Galactic lat and lon graph](/images/MelotteGalLatLon.png "The locations of the clusters in the Melotte catalog in c. 1900 galactic latitude and longitude.")
+
+It's notable that this is functionally an all-sky catalog, though the vast majority of the objects are in or near the galactic plane. There's also no gap, so you can't do a Messier Marathon type observation run.
