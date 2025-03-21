@@ -30,7 +30,9 @@ The net effect is that if worlds sufficiently unlike our own harbor life, it may
 # We don't know what we don't know
 Basically, don't take the term "habitable zone" too literally. Our knowledge of these environments is poorly defined, and will be for a number of decades. Even in our 'backyards', mysteries remain. If you're writing hard science fiction set on alien worlds, you can largely go wild. And if you somehow solve one or more of these things so we can easily find life (or lack thereof), please tell me?
 
-%need update on TRAPPIST 1 b being airless, 1 c being questionable, and the rest also uncertain: https://arxiv.org/abs/2401.16490
-% also comments on stellar activity? https://arxiv.org/abs/2402.17384
-% atmosphere characteristics are potentially misleading: https://ui.adsabs.harvard.edu/abs/2014ApJ...785L..20W/abstract https://ui.adsabs.harvard.edu/abs/2024PSJ.....5....7Y/abstract
-% A Young 2024
+# Addenda 2024-05-15
+We're now reasonably certain that [TRAPPIST-1 b is an airless rock](https://ui.adsabs.harvard.edu/abs/2023Natur.618...39G/abstract), [and 1 c](https://ui.adsabs.harvard.edu/abs/2023Natur.620..746Z/abstract) [is questionable](https://ui.adsabs.harvard.edu/abs/2023ApJ...955L...7L/abstract). [The rest having significant atmospheres is also uncertain](https://arxiv.org/abs/2401.16490), and [TRAPPIST-1 d is only potentially habitable in a narrow atmosphere and surface parameter space](https://arxiv.org/abs/2502.00132).
+
+[M-dwarf stellar activity is the culprit](https://arxiv.org/abs/2402.17384), and drives a lot of these unknowns about their planets.
+
+We're also deeply concerned about [abotic oxygen](https://ui.adsabs.harvard.edu/abs/2014ApJ...785L..20W/abstract) giving false impressions of life. And as a result a lot of studies are looking for combinations of gases, and talk about archean vs protozoic vs modern earth. [Retrevials can still be misleading, though!](https://ui.adsabs.harvard.edu/abs/2024PSJ.....5....7Y/abstract)
