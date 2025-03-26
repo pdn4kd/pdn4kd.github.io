@@ -80,9 +80,11 @@ $$E_l$$ Engine mass (lower stage)
 
 $$V_{el}$$ Effective exhaust velocity (lower stage), equivalent to $$I_{sp} \cdot g_0$$ for the engine
 
-$$E_l$$ Engine mass (upper stage)
+$$E_u$$ Engine mass (upper stage)
 
 $$V_{el}$$ Effective exhaust velocity (upper stage), equivalent to $$I_{sp} \cdot g_0$$ for the engine
+
+$$T$$ Tankage mass (total mass of empty tanks on both stages combined)
 
 $$P$$ Payload mass
 
@@ -91,12 +93,11 @@ $$S$$ Additional stage mass. That is, the mass penality for having a seperate st
 
 
 # Calculations
-$$a = V_{el} T^2 R (R-1)$$
-
+$$a = -V_{el} T^2 R (R-1)$$
 $$b = T(E_u+P)(V_{eu}(R-1)^2 - V_{el}(R+1)(R-1))$$
-$$c = V_{eu}(R-1)(E_u+P)(E_u+E_l+T+P+S)-V_{el}(R-1)(E_u)+P)^2$$
+$$c = V_{eu}(R-1)(E_u+P)(E_u+E_l+T+P+S)-V_{el}(R-1)(E_u+P)^2$$
 
-Upper stage fraction of propellant and takage $$ = \frac{-b\pm\sqrt{b^2 - 4ac}}{2a}$$ (choose whichever comes out positive)
+Upper stage fraction of propellant and takage $$ = \frac{-b\pm\sqrt{b^2 - 4ac}}{2a}$$ (choose whichever comes out positive).
 
 And yes, this is a "real world" use of the quadratic equation.
 
