@@ -2,7 +2,7 @@
 layout: post
 title:  "Target List Archive"
 date:   2025-02-24 19:30:01 -0500
-tags: research stars notes
+tags: research stars
 ---
 My (PhD-related) exoplanet simulations used 3 main target lists, which in various places I've called HWO, EPRV, and HabEx. For ease of access, I'm putting copies of them here, in assorted formats that are relevant.
 

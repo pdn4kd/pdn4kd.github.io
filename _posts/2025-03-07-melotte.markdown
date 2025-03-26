@@ -2,7 +2,7 @@
 layout: post
 title:  "The Melotte Catalog"
 date:   2025-03-07 18:10:00 -0400
-tags: astronomy
+tags: astronomy observing
 ---
 The Melotte Catalog is a listing of some 248 objects, mostly various open and globular clusters. You may have seen a few numbers on some large non-Messier open clusters (eg: alpha Persei, Hyades, Coma Bernecies). It's in Simbad to a degree, but there's no convenient CSV. ([ADS has scans of the origional paper](https://ui.adsabs.harvard.edu/abs/1915MmRAS..60..175M/abstract), but at best as images or as a PDF)
 

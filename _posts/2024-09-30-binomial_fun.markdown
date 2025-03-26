@@ -2,7 +2,7 @@
 layout: post
 title:  "Binomial distribution notes and applications"
 date:   2024-09-30 20:30:01 -0400
-tags: probability binomial notes
+tags: probability binomial
 ---
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
