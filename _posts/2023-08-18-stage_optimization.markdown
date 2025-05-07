@@ -93,9 +93,11 @@ $$S$$ Additional stage mass. That is, the mass penality for having a seperate st
 
 
 # Calculations
-$$a = -V_{el} T^2 R (R-1)$$
-$$b = T(E_u+P)(V_{eu}(R-1)^2 - V_{el}(R+1)(R-1))$$
-$$c = V_{eu}(R-1)(E_u+P)(E_u+E_l+T+P+S)-V_{el}(R-1)(E_u+P)^2$$
+a = $$-V_{el} T^2 R (R-1)$$
+
+b = $$T(E_u+P)(V_{eu}(R-1)^2 - V_{el}(R+1)(R-1))$$
+
+c = $$V_{eu}(R-1)(E_u+P)(E_u+E_l+T+P+S)-V_{el}(R-1)(E_u+P)^2$$
 
 Upper stage fraction of propellant and takage $$ = \frac{-b\pm\sqrt{b^2 - 4ac}}{2a}$$ (choose whichever comes out positive).
 
