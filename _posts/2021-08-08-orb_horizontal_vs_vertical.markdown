@@ -2,7 +2,7 @@
 layout: post
 title:  "Orbital Mechanics: Horizontal vs Vertical Ascents"
 date:   2021-08-08 00:00:00 -0400
-tags: astrodynamics KSP
+tags: astrodynamics KSP gaming
 ---
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">

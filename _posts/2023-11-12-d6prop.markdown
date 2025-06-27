@@ -2,7 +2,7 @@
 layout: post
 title:  "A Collection of Dice Probabilities"
 date:   2023-11-12 00:00:00 -0500
-categories: probability gaming
+tags: probability gaming
 ---
 This is a personal collection of dice roll tables, in combinations that come up frequently enough that I want notes of them. Some may be changed or added to over time. 
 

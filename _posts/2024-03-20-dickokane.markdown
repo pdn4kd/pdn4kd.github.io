@@ -2,7 +2,7 @@
 layout: post
 title:  "The Richard 'Dick' O'Kane method of aiming torpedoes"
 date:   2024-03-20 17:00:00 -0400
-categories: games math
+tags: gaming
 ---
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
@@ -29,7 +29,7 @@ Since most-every calculator these days has an arctan / atan / inverse tangent / 
 # How it works
 It's a trick with similar triangles, or what is sometimes known as ["constant bearing, decreasing range"](https://en.wikipedia.org/wiki/Constant_bearing,_decreasing_range). Because of those triangles, you don't need to worry about exact distance, just relative distance and range. The fact that it's a right triangle makes the math simpler.
 
-In terms of things that games may or may not simualte in detail, the broadside increases hit probability and damage, along with firing straight ahead minimizing the risk of gyro problems.
+In terms of things that games may or may not simulate in detail, the broadside increases hit probability and damage, along with firing straight ahead minimizing the risk of gyro problems.
 
 # Derivation
 Think of the above triangle in terms of distances as well as velocities: The ship (moving at $$V_S$$) will travel a distance $$S$$ in time $$t$$. The torpedo (moving at $$V_T$$) will travel a distance $$T$$ in time $$t$$. Or, combining these equations can show that the distance and velocity ratios are the same:
