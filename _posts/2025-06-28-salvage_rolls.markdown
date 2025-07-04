@@ -2,7 +2,7 @@
 layout: post
 title:  "Salvaging Bad Character Rolls"
 date:   2025-06-28 20:53:01 -0400
-tags: gaming probability
+tags: gaming probability silliness
 ---
 As a silly exercise, one of the character generation methods in D&D is to roll 3D6 for each stat and just directly accept it in order. No customization. For extra silliness, go with something like 2E, where you roll, then pick your race/class. All classes and some races have stat minimum before modifiers are applied. Yes, this means you can have a character that's incapable of doing anything. Normally this (or just a generally bad roll) would allow for a reroll, and things like the Infinity Engine games will automatically reroll or bump up numbers so you can meet (pre-selected) race/class minimums, but let's see what can happen.
 
