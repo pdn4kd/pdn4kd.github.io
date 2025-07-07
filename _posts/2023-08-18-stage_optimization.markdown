@@ -2,7 +2,7 @@
 layout: post
 title:  "Optimizing Stage Performance"
 date:   2023-08-18 00:00:00 -0400
-tags: KSP rocketry
+tags: KSP rocketry gaming
 ---
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
