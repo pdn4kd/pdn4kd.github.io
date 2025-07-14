@@ -94,6 +94,11 @@ Spheres of influence make Mercury look roomy, ranging from ~20 planetary radii f
 
 Transfer orbit ΔVs range from somewhat worse than Mars to Earth through Earth to Mars to minor nightmares. The worst case being trying to get from the surface of b to a flyby of h at over 26 km/s.
 
+Given that the star TRAPPIST-1 is so low mass, it's also worth looking at a hypothetical system that's a not so late M-dwarf. Say, 2x the mass:
+
+
+
+
 # Overall
 Apparently planetary masses and relative seperations matter a lot compared with distance to the star. All hail Oberth? This technically doesn't consider how much each extra m/s of ΔV or day of transit time actually matters, but that seems like the sort of detail better suited to an aerospace engineering project or worldbuilding for a specific SF setting. I wonder if [Project Rho][nyrath] has considered these for any planetary system other than our own?
 
