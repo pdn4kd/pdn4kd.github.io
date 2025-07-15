@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Telescope Sites II: Weather"
-date:   2024-07-04 00:00:00 -0400
+date:   2025-07-04 00:00:00 -0400
 Tags: Astronomy research telescopes
 ---
 <script type="text/javascript" async
