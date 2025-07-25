@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Interplanetary travel in other star systems 3"
-date:   2023-07-01 00:00:00 -0400
+date:   2025-07-01 00:00:00 -0400
 tags: exoplanets
 ---
 <script type="text/javascript" async
@@ -10,7 +10,7 @@ tags: exoplanets
 
 [A long time ago][mass_scale2], I did a limited comparison of our solar system with scaled versions of itself and with Kepler-62. But there are far more systems, and far more places to visit within a star system.
 
-How about the entirety (ish) of Sol, Kepler-62, and TRAPPIST-1?
+How about the entirety (ish) of Sol, Kepler-62, TRAPPIST-1, and L98-59?
 There are lots of other systems, but these should be adequately representational. It also is going to end up with a lot of table spam.
 
 Again: 
@@ -21,41 +21,12 @@ For this particular case I am assuming that orbital trips consist of:
 * Departing for home (however you choose to define that) is optional and should be considered seperately. We want to look over the full range of exploration options, and how many real world spacecraft have returned from interplanetary space?
 * Gravity assists and travel times/Δv for eg: brachistochrones will be ignored.
 
+All scaling used is the same [as that derived in the first post](), and all bodies are treated as being in coplanar circular orbits ([as done previously]()). (so eg: stars will be 2x/0.5x their mass, which will result in distances 4x/0.5x what they were before)
+
 # Our solar system around "typical" A, G, and K stars #
-This uses the scaling derived in the previous post. Earth and Mars are treated as being in coplanar circular orbits, which is close enough to correct for getting a rough estimate. Their orbits are also assumed to scale in sync.
-
-First, a quick review of the stars/planets involved.
-
-|                     |Sol-G (normal) |Earth                |Mars       |
-|---------------------|---------------|---------------------|-----------|
-|Mass (kg)            |1.98847542E+030|5.97236473041977E+024|6.4171E+023|
-|Radius (m)           |N/A            |6.3781E+006          |3.3895E+006|
-|Semi-Major Axis (au) |N/A            |1                    |1.52       |
-
-|            |Sol-A (2.0 M$$_\odot$$) |Earth                |Mars       |
-|---------------------|---------------|---------------------|-----------|
-|Mass (kg)            |3.97695084E+030|5.97236473041977E+024|6.4171E+023|
-|Radius (m)           |N/A            |6.3781E+006          |3.3895E+006|
-|Semi-Major Axis (au) |N/A            |4                    |6.08       |
-
-|          |Sol-K (0.5 M$$_\odot$$) |Earth                |Mars       |
-|---------------------|-------------|---------------------|-----------|
-|Mass (kg)            |9.9423771e+29|5.97236473041977E+024|6.4171E+023|
-|Radius (m)           |N/A          |6.3781E+006          |3.3895E+006|
-|Semi-Major Axis (au) |N/A          |0.5                  |0.76       |
+(in progress)
 
 
-Now to mix and match orbital maneuvers (rounded to the nearest m/s).
-
-|Star|Earth Surface to Orbit|LEO to Mars Transfer|Mars Surface to Orbit|LMO to Earth Transfer|Round Trip
-|----|-------|------|------|------|-------|
-Sol-G | 9341 | 3569 | 4145 | 2083 | 19139 |
-Sol-A | 9341 | 3405 | 4145 | 1770 | 18671 |
-Sol-K | 9341 | 3866 | 4145 | 2654 | 20007 |
-
-Surprisingly, it turns out that the [Oberth effect][Oberth wiki] completely dominates transfers, washing out the differences caused by the varying orbits. These are further washed out if there is any need for expending propellant for descent/ascent, as these are unchanged. Even the most extreme sub-case (returning to Earth from Mars) is only a bit more than 10% larger for the 0.5 M$$_{\odot}$$ late K/early M version of Sol than for the 2 M$$_{\odot}$$ early to mid A version!
-
-If anything, the residents of a solar system analog around a K-type star benefit the most. Interplanetary travel is only modestly more expensive than around an A or F star, and launch windows are up to twice as frequent.
 
 # Our solar system with double/half mass planets
 (tbd. maybe)
@@ -96,6 +67,11 @@ Transfer orbit ΔVs range from somewhat worse than Mars to Earth through Earth t
 
 Given that the star TRAPPIST-1 is so low mass, it's also worth looking at a hypothetical system that's a not so late M-dwarf. Say, 2x the mass:
 
+# L98-59
+A less well known M-dwarf system, but also with some rocky planets.
+
+# Kepler-90
+With 8 planets(!), one of which might be habitable (though could be venus-like if it has an atmosphere), this is at least promising.
 
 
 
@@ -116,3 +92,5 @@ It was surprisingly hard to find good exo-earth analogs. I know that we've found
 [kepler-62 wiki]: https://en.wikipedia.org/wiki/Kepler-62
 [trappist-1]: http://trappist.one
 [mass_scale2]: https://pdn4kd.github.io/2018/08/06/mass_scale2.html
+[l98-59]: https://arxiv.org/abs/2507.09343
+[kepler-90]: https://arxiv.org/abs/2507.13588

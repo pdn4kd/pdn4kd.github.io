@@ -40,7 +40,7 @@ First, a quick review of the stars/planets involved.
 |---------------------|-------------|---------------------|-----------|
 |Mass (kg)            |9.9423771E+29|5.97236473041977E+024|6.4171E+023|
 |Radius (m)           |N/A          |6.3781E+006          |3.3895E+006|
-|Semi-Major Axis (au) |N/A          |0.5                  |0.76       |
+|Semi-Major Axis (au) |N/A          |0.25                  |0.38       |
 
 
 Now to mix and match orbital maneuvers (rounded to the nearest m/s).
@@ -84,7 +84,7 @@ Apparently planetary masses and relative seperations are more important than the
 
 It was surprisingly hard to find good exo-earth analogs. I know that we've found far more hot jupiters and neptunes, but still...
 
-Eventually, travel across more or less the entirety of of our solar system, rescales of it, Kepler-62, and [TRAPPIST-1][trappist-1].
+Eventually, travel across more or less the entirety of of our solar system, rescales of it, Kepler-62, and [TRAPPIST-1][trappist-1]. In the mean time, [the raw spreadsheet](/codeanddata/interplanetary_scaling.ods) is available to play with.
 
 [Patched conics wiki]: https://en.wikipedia.org/wiki/Patched_conic_approximation
 [braeunig]: http://www.braeunig.us/space/orbmech.htm
