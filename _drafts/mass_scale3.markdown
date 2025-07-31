@@ -10,55 +10,33 @@ tags: exoplanets
 
 [A long time ago][mass_scale2], I did a limited comparison of our solar system with scaled versions of itself and with Kepler-62. But there are far more systems, and far more places to visit within a star system.
 
-How about the entirety (ish) of Sol, Kepler-62, TRAPPIST-1, and L98-59?
+How about the entirety (ish) of Sol, Kepler-62, TRAPPIST-1, L98-59, and Kepler90?
 There are lots of other systems, but these should be adequately representational. It also is going to end up with a lot of table spam.
 
-Again: 
-For this particular case I am assuming that orbital trips consist of:
-* Traveling from a planet's surface to a circular 200 km orbit takes 20% more ΔV than circular velocity. This 20% figure is a rather arbitrary (and possibly [pessimistic](/2021/08/08/orb_horizontal_vs_vertical)) way of considering atmospheric and gravity losses, but is at least consistent and should be vaguely accurate. The 200 km altitude is also arbitrary (if perhaps optimistic), but works as a parking orbit for Earth. Assuming thin atmospheres and/or low scale heights, it can be applied elsewhere.
-* Hohmann transfers are performed to travelling between planets. Yes, this implies circular coplanar orbits. For the chosen systems, this is "good enough".
-* Entering orbit from a transfer, and landing from a 200 km orbit are ambiguous. That is, they may be performed for free, or may cost the full amount of ΔV. They will also be ignored if considered impractical.
-* Departing for home (however you choose to define that) is optional and should be considered seperately. We want to look over the full range of exploration options, and how many real world spacecraft have returned from interplanetary space?
-* Gravity assists and travel times/Δv for eg: brachistochrones will be ignored.
+For this particular case I am looking at trips that consist of:
+* Traveling from a planet's surface to a circular 200 km orbit. All three of the orbital speed at that altitude, an idealized 2 burn trasfer from the surface, and 20% more ΔV than circular velocity. This 20% figure is a rather arbitrary (and possibly [pessimistic](/2021/08/08/orb_horizontal_vs_vertical)) way of considering atmospheric and gravity losses, but is at least consistent and should be vaguely accurate. The 200 km altitude is also arbitrary (if perhaps optimistic), but works as a parking orbit for Earth. Assuming thin atmospheres and/or low scale heights, it can be applied elsewhere. I'll try to note planets where this is silly (eg: gas giants)
+* Hohmann transfers are performed to travelling between planets. Yes, this implies circular coplanar orbits. For the chosen systems, this is usually "good enough".
+* I include the Oberth effect in the typical patched conic way (orbit goes from the nominal SOI edge to 200 km altitude).
+* Typical transfer and wait times are considered, but overall Δv is *not* added up. Just note that starting a transfer from body x to body y is the same as ending one from body y to body x (assuming no aerobraking).
+* Gravity assists and travel times/Δv for eg: brachistochrones are also being ignored. Things are complicated and messy enough even in the simple case.
 
-All scaling used is the same [as that derived in the first post](), and all bodies are treated as being in coplanar circular orbits ([as done previously]()). (so eg: stars will be 2x/0.5x their mass, which will result in distances 4x/0.5x what they were before)
+All scaling used is the same [as that derived in the first post](mass_scale1), and all bodies are treated as being in coplanar circular orbits ([as done previously](mass_scale2)). (so eg: stars will be 2x/0.5x their mass, which will result in distances 4x/0.5x what they were before)
+
+[The raw spreadsheet(s), including some systems that were ultimately ignored](/codeanddata/interplanetary_scaling3.ods)
 
 # Our solar system around "typical" A, G, and K stars #
-(in progress)
-
-
+(in progress, but given how different other systems seem to be, maybe a bad example)[^1]
 
 # Our solar system with double/half mass planets
 (tbd. maybe)
 
 # Kepler-62
-[Kepler-62 is a K2V star with 6 known planets orbiting it.][Kepler-62 wiki] Two of them (Kepler-62 e and Kepler-62 f) are a pair of super-earths with insolations that make them plausibly habitable. Taking them as being sort of like Earth and Mars in the above case:
+[Kepler-62 is a K2V star with 6 known planets orbiting it.][Kepler-62 wiki] Two of them (Kepler-62 e and Kepler-62 f) are a pair of super-earths with insolations that make them plausibly habitable. The masses are generally poorly measured, with only maximum estimates.[^2] As such, I am using plausible values found via ???
 
-|                 |Kepler-62(0.69 M$$_\odot$$) |e (4.5 M🜨) |f (2.5 M🜨) | 
-|---------------------|--------------|---------------------|-----------|
-|Mass             | 0.69 M$$_\odot$$ | 4.5 M🜨              | 2.5 M🜨    |
-|Mass (kg)            | 1.372e30     | 2.688e25            | 1.493e25  |
-|Radius (R🜨)          | N/A          | 1.61                | 1.41      |
-|Radius (m)           | N/A          | 1.0268741e7         | 8.993121e6|
-|Semi-Major Axis (au) | N/A          | 0.427               | 0.718     |
-|Surface to 200 km orbit (m/s)| N/A        | 15707         | 12494     |
-|Transfer to other body (m/s)| N/A         | 5857          | 4782      |
-
-(body information from: https://www.science.org/doi/10.1126/science.1234702)
-
-Here, the ΔV costs are actually significantly larger. The high planet masses mean that just getting off the surface costs ~2-3x as much as compared with Earth and Mars. This does help somewhat to reduce transfer costs, but those are still quite large. (Larger than the 0.5 M$$_{\odot}$$ case, as these two planets are proportionally somewhat farther apart than Earth and Mars.)
-That a flyby of Kepler-62 e from Kepler-62 f costs more ΔV than a Mars orbiter from Earth, and a flyby from e to f is comparable to an Earth-Mars-Earth roundtrip (with aerocapture) is stark comment on just how hard spaceflight may be for some aliens.
-
-The interior planets were ignored from their hellish conditions. Kepler-62 d is more massive than e at 5.5 M🜨, and sees more than double the insolation of Mercury. The innermost two planets are less massive, but with even more starlight...
-
-Transfer windows and flight times:
 
 # TRAPPIST-1
-Ah, yes. That [infamous M8V system with 8 planets, 3 of which are in the habitable zone][trappist-1]. Looking at orbiting around or transferring between all of them:
+Ah, yes. That [infamous M8V system with 8 planets, 3 of which are in the habitable zone][trappist-1].[^3]
 
-
-
-(using orbit/mass data from: https://arxiv.org/abs/1802.01377)
 
 Note that these planets are all fairly massive, with even the lightest being almost 3 times the mass of Mars, and the heaviest slightly more massive than Earth. Despite these masses, the shere closeness has some surprising effects on orbital speeds and spheres of influence. The outer-most are in somewhat familiar ranges, with h's orbital speed being comparable to Venus', and f's being comparable to Mercury's. The rest are impressive speedsters, with b pulling ~82 km/s.
 Spheres of influence make Mercury look roomy, ranging from ~20 planetary radii for h to ~4 radii for b. Mind the tides. (for comparison, the moon is ~60 earth radii away)
@@ -68,10 +46,10 @@ Transfer orbit ΔVs range from somewhat worse than Mars to Earth through Earth t
 Given that the star TRAPPIST-1 is so low mass, it's also worth looking at a hypothetical system that's a not so late M-dwarf. Say, 2x the mass:
 
 # L98-59
-A less well known M-dwarf system, but also with some rocky planets.
+A less well known M-dwarf system, but also with some rocky planets.[^4] At ~4x the mass of TRAPPIST-1, it also helps to fill in the details of various systems.
 
 # Kepler-90
-With 8 planets(!), one of which might be habitable (though could be venus-like if it has an atmosphere), this is at least promising.
+With 8 planets(!), one of which might be habitable (though could be venus-like if it has an atmosphere), this is at least promising.[^5] The host star is also sun-like (1.2 $$M_🜨$$).
 
 
 
@@ -79,6 +57,14 @@ With 8 planets(!), one of which might be habitable (though could be venus-like i
 Apparently planetary masses and relative seperations matter a lot compared with distance to the star. All hail Oberth? This technically doesn't consider how much each extra m/s of ΔV or day of transit time actually matters, but that seems like the sort of detail better suited to an aerospace engineering project or worldbuilding for a specific SF setting. I wonder if [Project Rho][nyrath] has considered these for any planetary system other than our own?
 
 It was surprisingly hard to find good exo-earth analogs. I know that we've found far more hot jupiters and neptunes, but still...
+
+# Data Sources
+[^1]: Wikipedia, as the solar system bodies are generally known well to high precision.
+[^2]: For Kepler-62, the 2013 discovery paper is used: https://www.science.org/doi/10.1126/science.1234702
+[^3]: [A 2018 update on the masses of the TRAPPIST-1 planets](https://arxiv.org/abs/1802.01377), and [a 2017 study of TRAPPIST-1 with Spitzer data](https://academic.oup.com/mnras/article/475/3/3577/4795334) for their periods and the star's properties.
+[^4]: The 2025 discovery of a 5th planet around L98-59: https://arxiv.org/abs/2507.09343
+[^5]: Kepler-90 uses a 2025 study for the masses of g and h: https://arxiv.org/abs/2507.13588
+
 
 [Patched conics wiki]: https://en.wikipedia.org/wiki/Patched_conic_approximation
 [braeunig]: http://www.braeunig.us/space/orbmech.htm
@@ -91,6 +77,7 @@ It was surprisingly hard to find good exo-earth analogs. I know that we've found
 [nyrath]: https://www.project-rho.com
 [kepler-62 wiki]: https://en.wikipedia.org/wiki/Kepler-62
 [trappist-1]: http://trappist.one
+[mass_scale1]: https://pdn4kd.github.io/2018/04/27/mass_scale1.html
 [mass_scale2]: https://pdn4kd.github.io/2018/08/06/mass_scale2.html
 [l98-59]: https://arxiv.org/abs/2507.09343
 [kepler-90]: https://arxiv.org/abs/2507.13588
