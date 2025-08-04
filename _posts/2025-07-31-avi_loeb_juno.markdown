@@ -2,7 +2,7 @@
 layout: post
 title:  "Juno cannot be repurposed to flyby 3I/ATLAS"
 date:   2025-07-31 15:30:00 -0400
-tags: astrodynamics rants
+tags: spaceflight rants
 ---
 <script type="text/javascript" async
    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
