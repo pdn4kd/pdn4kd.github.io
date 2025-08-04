@@ -36,3 +36,6 @@ We're now reasonably certain that [TRAPPIST-1 b is an airless rock](https://ui.a
 [M-dwarf stellar activity is the culprit](https://arxiv.org/abs/2402.17384), and drives a lot of these unknowns about their planets.
 
 We're also deeply concerned about [abotic oxygen](https://ui.adsabs.harvard.edu/abs/2014ApJ...785L..20W/abstract) giving false impressions of life. And as a result a lot of studies are looking for combinations of gases, and talk about archean vs protozoic vs modern earth. [Retrevials can still be misleading, though!](https://ui.adsabs.harvard.edu/abs/2024PSJ.....5....7Y/abstract)
+
+# Addendum 2025-08-04
+L98-59 b [looks to have a volcanic atmosphere](https://ui.adsabs.harvard.edu/abs/2025ApJ...980L..26B/abstract), so maybe something can be hung onto more easily. Though this is an M3V star (contrast with an M8V like TRAPPIST-1), so it's also less active.
