@@ -32,6 +32,9 @@ A more hypothetical paper, discussing why it may make sense to park a comet inte
 
 At the same time, I'm left wondering if this paper was inspired by [a previous one](https://arxiv.org/abs/2507.12213) making extremely questionable assumptions from an insufficient Oberth effect.
 
+# Addendum 2025-08-06
+An updated version of Loeb et al's paper now considers a tradeoff of mission Δv vs flyby distance, number of burns, and start date. But it also continues to use the incorrect engine assumptions. Which I think feeds into my opinion that as a theoretical exercise it's interesting and worthwhile, but as a serious mission proposal is garbage. [Scott Manley's treatment of it as primarily hypothetical](https://www.youtube.com/watch?v=MafmhXwPgmo) is similar. He also makes a point that more and better surveys for finding these objects sooner (and on friendlier trajectories) would be helpful. (As would getting a proper comet interceptor mission ready). [Currently planned interceptors are also unable to reach 3I/ATLAS](https://iopscience.iop.org/article/10.3847/2515-5172/adf4c4), though as he notes, more/better surveys should find objects that are easier to reach.
+
 # Sources
 [^0]: [eoPortal](https://www.eoportal.org/satellite-missions/juno#launch)
 [^1]: [LEROS 1b Apogee Enginei flyer](https://www.nammo.com/wp-content/uploads/2021/03/2021-Nammo-Westcott-Liquid-Engine-LEROS1B.pdf) ([local PDF](/codeanddata/))
