@@ -40,9 +40,15 @@ We're also deeply concerned about [abotic oxygen](https://ui.adsabs.harvard.edu/
 # Addendum 2025-08-04
 L98-59 b [looks to have a volcanic atmosphere](https://ui.adsabs.harvard.edu/abs/2025ApJ...980L..26B/abstract), so maybe something can be hung onto more easily. Though this is an M3V star (contrast with an M8V like TRAPPIST-1), so it's also less active.
 
-# Adendum 2025-08-25:
-[GJ 1132b is probably a bare rock, though a thin atmosphere is still possible](https://arxiv.org/abs/2508.10579). [TRAPPIST-1 d either doesn't have an atmosphere, or the possibilities are limited (though there's still more in the parameter space)](https://arxiv.org/abs/2508.08416). [GJ 3929b is also probably a bare rock](https://arxiv.org/abs/2508.12516). [LTT 3890 b is definitely a bare rock](https://arxiv.org/abs/2508.14210). It's clear that while we don't fully understand the cosmic shoreline yet, a lot of M-dwarf planets are on the airless side.
+# Adendum 2025-09-21:
+[GJ 1132b is probably a bare rock, though a thin atmosphere is still possible](https://arxiv.org/abs/2508.10579). [TRAPPIST-1 d either doesn't have an atmosphere, or the possibilities are limited (though there's still more in the parameter space)](https://arxiv.org/abs/2508.08416). [GJ 3929b is also probably a bare rock](https://arxiv.org/abs/2508.12516). [LTT 3890 b is definitely a bare rock](https://arxiv.org/abs/2508.14210). 
+
+For [even more observations on TRAPPIST-1 b and c](https://arxiv.org/abs/2509.02128), they continue to [have little to no atmosphere](https://arxiv.org/abs/2509.02120). [TRAPPIST-1 e's atmosphere](https://iopscience.iop.org/article/10.3847/2041-8213/adf62e) [is getting narrowed down](https://arxiv.org/abs/2509.05407), though [even with](https://arxiv.org/abs/2509.05414) [this data](https://zenodo.org/records/16125662), there are still huge unknowns (including if it has one).
+
+Or, almost 7 years since the original post, it's clear that while we don't fully understand the cosmic shoreline yet. It's likely (but far from certain) that a lot of M-dwarf planets are on the airless side. [It'll probably be better once we can model eg: XUV effects better](https://arxiv.org/abs/2508.21745) (which are proportionally much higher around M-dwarfs, though [are UV fluxes are still being characterized](https://arxiv.org/abs/2509.09029)).
 
 Investigations on [exotic liquids as a medium for life continues](https://arxiv.org/abs/2508.08437), though these are probably rare.
 
 Our own [solar system architecture](https://ui.adsabs.harvard.edu/abs/2015ApJ...810..105M/abstract) may be something of an outlier, which may suggest that life is rare. But it also might be unrelated. [We still have a number of conflicting formation models](https://arxiv.org/abs/2411.03453), which ties into that.
+
+Even more generally, we need to ask [what happens if we find nothing?](https://arxiv.org/abs/2504.06779) (or, how can we properly quanitfy things based off of number of planets studied and observation quality?)
