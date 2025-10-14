@@ -29,6 +29,8 @@ A more or less complete listing of papers (etc) that I've been involved in.
 
 ["The TESS Grand Unified Hot Jupiter Survey. II. Twenty New Giant Planets"](https://arxiv.org/abs/2210.15473), another large planet detection paper where I helped with data collection in the transit-followup role.
 
+["Giant Outer Transiting Exoplanet Mass (GOT 'EM) Survey. VI. Confirmation of a Long-period Giant Planet Discovered with a Single TESS Transit"](https://ui.adsabs.harvard.edu/abs/2025AJ....170...41E/), which takes advantage of what now amounts to archival data for TOI-4456 b. Admittedly, this is another case where our data was limited detection-wise ("ruled out" a transit at that time).
+
 ## Other
 I'd certainly be willing to put up my old slides/posters up here, but I'm not sure there's any interest since it would be either undergrad work or covered by current/upcoming papers. At least some of the details of my work is going to end up as blog posts.
 
