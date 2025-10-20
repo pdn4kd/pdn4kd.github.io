@@ -202,9 +202,11 @@ $$R_u$$ Upper stage tankage mass ratio (and this means that the full mass of the
 
 $$R_l$$ Lower stage tankage mass ratio
 
-The lower stage tankage is *not* explicitly defined, but as $$T - R_u T_u$$ when full and $$(T - R_u T_u)/R_l$$ when empty
+The lower stage tankage is *not* explicitly defined (so no $$T_l$$), but as $$T - R_u T_u$$ when full and $$(T - R_u T_u)/R_l$$ when empty
 
-$$S$$ Staging seperator/misc lower stage equipment. (eg: fins, and perhaps avionics)
+$$E_l, E_u$$ Lower and upper stage engine masses
+
+$$S$$ Staging separator/misc lower stage equipment. (eg: fins, and perhaps avionics)
 
 $$P$$ Payload (which also includes anything that isn't really mission payload in the upper stage,but isn't the propellant, tanks, or engines)
 
@@ -229,6 +231,6 @@ $$T_u = \frac{-b±\sqrt{b²-4ac}}{2a}$$
 
 And if you have $$R_l = R_u$$, this simplifies to what it was last time. (barring any errors on my part)
 
-This presents the same situation as last time -- you can constrain overall craft size by first stage TWR, but the need to have only one variable means you're not optimizing for payload, and can't extend this to 3+ stages. Control requirements very much risk complicating though, though. (Depending on where you put the avionics)
+This presents the same situation as last time -- you can constrain overall craft size by first stage TWR, but *the need to have only one variable means you're not optimizing for Δv rather than payload, and can't extend this to 3+ stages.* Control requirements very much risk complicating though, though. (Depending on where you put the avionics)
 
 Given the limitations on how mass ratios can vary when suffling mass between stages (and possible shape constraints), something similar could probably be done for craft in JNO with enough effort.
