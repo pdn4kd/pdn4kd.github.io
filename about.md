@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am Patrick N, a ~~graduate student~~ PhD candidate in Astronomy at George Mason University. I'm currently working on theoretical/simulation approaches to better finding exoplanets in radial velocity surveys. Less theoretically, I'm sometimes operating [the campus telescope](https://sites.google.com/view/georgemasonobservatory/) for tours/outreach as well as transit follow-up.
+I am Patrick Newman, a ~~graduate student~~ ~~PhD candidate in Astronomy at George Mason University. I'm currently working on theoretical/simulation approaches to better finding exoplanets in radial velocity surveys. Less theoretically, I'm sometimes operating [the campus telescope](https://sites.google.com/view/georgemasonobservatory/) for tours/outreach as well as transit follow-up.~~ PhD in Astronomy (well, technically the degree says Physics), still somewhat affiliated with George Mason University (though open to employment and willing to move).
 
 Also, I poke at random space and number crunching things for fun, so not *everything* will be work-related.
 

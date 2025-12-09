@@ -8,6 +8,7 @@ A more or less complete listing of papers (etc) that I've been involved in.
 ## First-author Publications
 [EPRV Sims Technical Report](https://exoplanets.nasa.gov/internal_resources/1950) ([part of the NASA-NSF EPRV initiative](https://exoplanets.nasa.gov/exep/NNExplore/EPRV/)). A modified version that's an actual paper [has since been submitted and published.](https://doi.org/10.3847/1538-3881/acad07)
 
+
 ## Relevant Co-author Publications
 # Survey Simulations
 [EPRV Working Group Final Report](https://ui.adsabs.harvard.edu/abs/2021arXiv210714291C/abstract) ([part of the NASA-NSF EPRV initiative](https://exoplanets.nasa.gov/exep/NNExplore/EPRV/)). My portion is (unsurprisingly) listed in more depth in the technical report.
@@ -32,7 +33,11 @@ A more or less complete listing of papers (etc) that I've been involved in.
 ["Giant Outer Transiting Exoplanet Mass (GOT 'EM) Survey. VI. Confirmation of a Long-period Giant Planet Discovered with a Single TESS Transit"](https://ui.adsabs.harvard.edu/abs/2025AJ....170...41E/), which takes advantage of what now amounts to archival data for TOI-4456 b. Admittedly, this is another case where our data was limited detection-wise ("ruled out" a transit at that time).
 
 ## Other
-I'd certainly be willing to put up my old slides/posters up here, but I'm not sure there's any interest since it would be either undergrad work or covered by current/upcoming papers. At least some of the details of my work is going to end up as blog posts.
+I'd certainly be willing to put up my old slides/posters up here, but I'm not sure there's any interest since it would be either undergrad work or covered by current/upcoming papers. At least some of the details of my work (especially background to the thesis) is going to end up as blog posts.
+
+Since I *have* helped with documentation before, it's possible that the campus telescope manual or some more game-related things might also make sense.
+
+["Simulations for Upcoming and Proposed Exoplanet Surveys as Pathfinders for Direct Imaging Missions"](/postersetc/PDN_Thesis_submitted.pdf), my thesis and [the final dissertation slides](/postersetc/iThesis Defense Slides 2.odp) ([pdf version](/postersetc/Thesis Defense Slides 2.pdf)). The [second round of RV survey simulations](/postersetc/HabEx_RVSim_draft.pdf) listed in it may become a paper in the future. Annoyingly, the orbital photometric lightsource calcualtions are sufficiently limited not to appear in any papers.)
 
 ["A Flexible Python Observatory Automation Framework for the George Mason University Campus Telescope"](https://ui.adsabs.harvard.edu/abs/2021tsc2.confE...8R/abstract), we're moving towards increasingly automating the campus telescope (see above on doing transit follow-up observations), and my contributions to research observing also fed into beta-testing the code and suggesting features/bug-fixes. I'm currently listing a conference abstract, though this is also becoming a paper.
 
@@ -43,4 +48,4 @@ I'd certainly be willing to put up my old slides/posters up here, but I'm not su
 * [AAS 231](/postersetc/AAS229.pdf) with a somewhat more advanced version.
 * [Exoplanets II](/postersetc/ExoplanetsII.pdf) where I was presenting on space based EPRVs.
 * [Exoplanets IV](/postersetc/ExoplanetsIV.pdf) with a near-finished version of paper 1.
-* [SEEC 2024](/postersetc/SEEC2024.pdf) with draft information for paper 2. Bonus content: [an earlier version with a few more graphs](/postersetc/SEEC2024draft.pdf)
+* [SEEC 2024](/postersetc/SEEC2024.pdf) with draft information for paper 2/my thesis. Bonus content: [an earlier version with a few more graphs](/postersetc/SEEC2024draft.pdf)
