@@ -47,7 +47,7 @@ Higher order spherical aberrations also exist, and compensating properly for the
 
 Here I'm graphing out the necessary focal lengths and focal ratios for various diameters at either the Rayleigh Criterion (λ/4), or with a tiny bit a headroom (λ/5). The reason for those old telescopes being so silly long quickly becomes apparent.
 
-![Spherical Mirrors Graph](/images/acceptable_spherical_mirrors.png/ "The graph for the earlier derived functions. Both choices of error follow similar patterns, and drive home why large telescopes require parabolization to avoid being unweildy.")
+![Spherical Mirrors Graph](/images/acceptable_spherical_mirrors.png "The graph for the earlier derived functions. Both choices of error follow similar patterns, and drive home why large telescopes require parabolization to avoid being unweildy.")
 
 ## Comparing a few existing scopes
 
@@ -76,4 +76,4 @@ This gives a rule of thumb for telescope quality, and shows that yes, those long
 
 And finally if you want a canned equation for any telescope with typically shown parameters:
 
-$error = $0.88778 \frac{D^4}{F^3}$$, where D is the Diameter (mm), F is the focal length (mm), and error is the amount in fractions of λ at 550 nm.
+$$error = 0.88778 \frac{D^4}{F^3}$$, where D is the Diameter (mm), F is the focal length (mm), and error is the amount in fractions of λ at 550 nm.
