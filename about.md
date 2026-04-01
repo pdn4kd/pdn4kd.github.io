@@ -8,7 +8,7 @@ I am Patrick Newman, a ~~graduate student~~ ~~PhD candidate in Astronomy at Geor
 
 Also, I poke at random space and number crunching things for fun, so not *everything* will be work-related.
 
-That said, I'm putting a resume/[CV](/postersetc/CV20251216.pdf) here, since this *is* a semi-profesional site, and those posts hopefully hilight my skills. Including (if appropriate) a pivot outside of exoplanets or astronomy entirely.
+That said, I'm putting a [resume](/postersetc/resume202603c.pdf)/[CV](/postersetc/CV20251216.pdf) here, since this *is* a semi-profesional site, and those posts hopefully hilight my skills. Including (if appropriate) a pivot outside of exoplanets or astronomy entirely.
 
 This site uses the base [Jekyll](https://jekyllrb.com) theme / minima. I'll take suggestions on how to tweak things, though.
 You can find the source code for both Jekyll and Minima at GitHub:
